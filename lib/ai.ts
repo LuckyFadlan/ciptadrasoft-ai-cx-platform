@@ -31,7 +31,7 @@ class GeminiProvider implements AIProvider {
   private apiKey: string;
   private modelName: string;
 
-  constructor(apiKey?: string, modelName = 'gemini-2.5-flash') {
+  constructor(apiKey?: string, modelName = 'gemini-3.5-flash-lite') {
     this.apiKey = apiKey || process.env.GEMINI_API_KEY || '';
     this.modelName = process.env.GEMINI_MODEL || modelName;
   }
@@ -44,36 +44,25 @@ class GeminiProvider implements AIProvider {
     const ai = new GoogleGenAI({ apiKey: this.apiKey });
     const systemPrompt = buildSystemPrompt(knowledgeContext);
 
-    // Format conversation messages for Gemini API
-    // Map 'user' and 'assistant' to contents format
     const contents = messages.map(msg => ({
       role: msg.role === 'assistant' ? 'model' : 'user',
       parts: [{ text: msg.content }]
     }));
 
-    try {
-      const response = await ai.models.generateContent({
-        model: this.modelName,
-        contents,
-        config: {
-          systemInstruction: systemPrompt,
-          temperature: 0.3,
-          maxOutputTokens: 1024
-        }
-      });
+    // Cascade of candidate models ordered by speed and stability
+    const candidateModels = Array.from(new Set([
+      this.modelName,
+      'gemini-3.5-flash-lite',
+      'gemini-3.6-flash',
+      'gemini-3.7-flash'
+    ]));
 
-      const reply = response.text || 'I apologize, but I could not generate a response at this moment.';
-      return {
-        reply,
-        provider: 'gemini',
-        model: this.modelName
-      };
-    } catch (err: unknown) {
-      // Fallback to gemini-1.5-flash if 2.5 is not yet available in the API key tier
-      if (this.modelName !== 'gemini-1.5-flash' && err instanceof Error && err.message.includes('not found')) {
-        console.warn(`Model ${this.modelName} failed, retrying with gemini-1.5-flash...`);
-        const fallbackResponse = await ai.models.generateContent({
-          model: 'gemini-1.5-flash',
+    let lastError: unknown = null;
+
+    for (const model of candidateModels) {
+      try {
+        const response = await ai.models.generateContent({
+          model,
           contents,
           config: {
             systemInstruction: systemPrompt,
@@ -81,14 +70,22 @@ class GeminiProvider implements AIProvider {
             maxOutputTokens: 1024
           }
         });
+
+        const reply = response.text || 'I apologize, but I could not generate a response at this moment.';
         return {
-          reply: fallbackResponse.text || '',
+          reply,
           provider: 'gemini',
-          model: 'gemini-1.5-flash'
+          model
         };
+      } catch (err: unknown) {
+        lastError = err;
+        console.warn(`[Gemini API] Model ${model} returned error, attempting fallback...`, err instanceof Error ? err.message : err);
+        // Wait a brief 300ms before trying the next model in cascade
+        await new Promise(res => setTimeout(res, 300));
       }
-      throw err;
     }
+
+    throw lastError || new Error('All Gemini candidate models failed');
   }
 }
 
