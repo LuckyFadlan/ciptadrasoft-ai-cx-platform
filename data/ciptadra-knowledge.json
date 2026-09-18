@@ -1,0 +1,306 @@
+{
+  "company": {
+    "name": "CiptadraSoft",
+    "legalName": "PT Ciptadra Softindo Technology (Prototype Demo)",
+    "tagline": "Transform Your Business with Smarter Digital Solutions",
+    "description": "CiptadraSoft is an enterprise technology and software solution provider based in Indonesia, delivering digital transformation, integrated business systems, omnichannel customer service, process automation, and enterprise AI capabilities.",
+    "founded": "2012 (Demo Profile)",
+    "headquarters": "Jakarta, Indonesia",
+    "presence": ["Jakarta", "Surabaya", "Bandung", "Regional Southeast Asia"],
+    "mission": "Empowering enterprise organizations across Indonesia and Southeast Asia through scalable, secure, and modern digital ecosystems.",
+    "values": [
+      "Enterprise Grade Scalability",
+      "Customer-Centric Innovation",
+      "Robust Data Security & Compliance",
+      "Seamless Legacy Integration",
+      "Pragmatic AI Transformation"
+    ],
+    "contact": {
+      "email": "info@ciptadrasoft.com",
+      "salesEmail": "sales@ciptadrasoft.com",
+      "phone": "+62 21 555 0192",
+      "address": "Cyber 2 Tower, 18th Floor, Jl. H.R. Rasuna Said, Kuningan, South Jakarta 12950, Indonesia",
+      "businessHours": "Monday - Friday, 08:30 - 17:30 WIB"
+    }
+  },
+  "solutions": [
+    {
+      "id": "enterprise-solutions",
+      "name": "Enterprise Solutions",
+      "shortDescription": "Integrated core software architecture and digital foundations for high-scale enterprise operations.",
+      "description": "Comprehensive enterprise application ecosystems tailored for high-volume transactions, regulatory compliance, and multi-department interoperability. Enables seamless coordination between core operational units.",
+      "keyBenefits": [
+        "Eliminates operational data silos",
+        "High-throughput transactional processing",
+        "Configurable role-based access control and audit logging",
+        "Full microservices or hybrid monolithic deployment readiness"
+      ],
+      "capabilitiesIncluded": ["Enterprise Architecture", "Custom ERP Integration", "Multi-Tenant Architecture", "Security Framework"],
+      "targetAudience": "Large enterprises, financial conglomerates, multinational corporations"
+    },
+    {
+      "id": "customer-service-solutions",
+      "name": "Customer Service Solutions",
+      "shortDescription": "Omnichannel customer engagement platforms unifying WhatsApp, web chat, email, and call centers.",
+      "description": "Enterprise-grade omnichannel customer engagement and contact center software. Unifies customer communications into a single agent desktop, powered by intelligent routing, ticket lifecycle management, and SLA tracking.",
+      "keyBenefits": [
+        "Single pane of glass for all incoming channels (WhatsApp, Webchat, Email, Voice)",
+        "Automated tier-1 ticket deflection through conversational AI",
+        "Configurable SLA monitors with real-time escalation alerts",
+        "Deep integration with CRM and transaction databases"
+      ],
+      "capabilitiesIncluded": ["Omnichannel Inbox", "SLA Management", "Supervisor Real-time Analytics", "Customer Journey Tracking"],
+      "targetAudience": "Banks, retail chains, fintechs, telecom customer care divisions"
+    },
+    {
+      "id": "digital-transformation",
+      "name": "Digital Transformation",
+      "shortDescription": "Strategic modernization of legacy business platforms into scalable cloud-native architectures.",
+      "description": "End-to-end modernization pathways for enterprises bound to legacy monolithic backends. CiptadraSoft develops migration blueprints, API abstraction layers, and modern UI/UX portals.",
+      "keyBenefits": [
+        "Zero-downtime phased migration methodologies",
+        "API-led connectivity connecting mainframe/legacy DBs with modern apps",
+        "Cloud-ready and containerized microservices deployment (Docker/K8s)",
+        "Faster time-to-market for digital customer touchpoints"
+      ],
+      "capabilitiesIncluded": ["Legacy Decoupling", "API Gateway Architecture", "DevOps & CI/CD Pipelines", "UX Modernization"],
+      "targetAudience": "Enterprises modernizing decades-old infrastructure, government institutions, insurance firms"
+    },
+    {
+      "id": "business-process-automation",
+      "name": "Business Process Automation (BPA)",
+      "shortDescription": "Workflow engine and robotic automation eliminating repetitive manual tasks and approval bottlenecks.",
+      "description": "Dynamic workflow orchestration and robotic process automation (RPA) enabling enterprises to automate complex multi-stage approvals, document verifications, financial reconciliations, and employee onboarding.",
+      "keyBenefits": [
+        "Reduces process cycle time by up to 70%",
+        "Auditable and compliant workflow governance",
+        "Visual low-code workflow designer for business analysts",
+        "Automated document processing and OCR extraction"
+      ],
+      "capabilitiesIncluded": ["BPMN 2.0 Compliant Engine", "Form Builder", "Automated Task Dispatch", "Approval Matrix Rules"],
+      "targetAudience": "Operations departments, finance & accounting, HR, compliance teams"
+    },
+    {
+      "id": "data-analytics",
+      "name": "Data & Analytics",
+      "shortDescription": "Enterprise data warehousing, real-time business intelligence, and predictive reporting dashboards.",
+      "description": "Unified data engineering and visualization suite transforming raw operational telemetry into actionable strategic insights. Consolidates ERP, CRM, and transactional stores into high-performance analytical warehouses.",
+      "keyBenefits": [
+        "Executive dashboards with real-time KPI metrics",
+        "Predictive churn, demand forecasting, and risk modeling",
+        "Automated end-of-day data consolidation pipelines",
+        "Role-based data masking and governance complying with data privacy laws"
+      ],
+      "capabilitiesIncluded": ["ETL/ELT Data Pipelines", "Interactive Dashboards", "Data Warehouse Modeling", "Self-Service BI"],
+      "targetAudience": "C-level leadership, business intelligence analysts, risk management"
+    },
+    {
+      "id": "ai-solutions",
+      "name": "AI Solutions & Automation",
+      "shortDescription": "Domain-grounded generative AI, intelligent chatbots, and predictive operational intelligence.",
+      "description": "Enterprise-ready AI capabilities including generative conversational assistants, automated document synthesis, intent categorization, and smart enterprise knowledge retrieval (RAG). Built with enterprise guardrails and private data isolation.",
+      "keyBenefits": [
+        "Domain-specific RAG grounded strictly on company manuals and policies",
+        "Multi-language support with native Indonesian (Bahasa) and English comprehension",
+        "Strict anti-hallucination guardrails and source attribution",
+        "Private deployment options (on-premise LLMs or sovereign cloud)"
+      ],
+      "capabilitiesIncluded": ["Conversational Generative AI", "Knowledge Base Retrieval (RAG)", "Document Intelligence", "Intent Routing"],
+      "targetAudience": "Customer support organizations, knowledge workers, legal/compliance teams, HR"
+    }
+  ],
+  "products": [
+    {
+      "id": "ciptadra-crm",
+      "name": "Ciptadra CRM Suite",
+      "category": "Customer Relationship Management",
+      "features": [
+        "360-degree customer profile aggregation",
+        "Sales pipeline tracking & deal velocity forecasting",
+        "Automated lead assignment and scoring",
+        "Activity logging and omnichannel history synchronization",
+        "Mobile companion app for field sales"
+      ],
+      "deployment": "Cloud SaaS or On-Premise Enterprise",
+      "summary": "Full-lifecycle enterprise customer relationship management system unifying lead acquisition, account management, and deal stages."
+    },
+    {
+      "id": "ciptadra-service-desk",
+      "name": "Ciptadra Omnichannel Service Desk",
+      "category": "Customer Service & Support",
+      "features": [
+        "Unified inbox for WhatsApp Business API, Webchat, Instagram DM, Email, and Voice",
+        "Configurable SLA policies with multi-level automated escalations",
+        "Integrated AI co-pilot for agent reply drafting and knowledge lookup",
+        "CSAT & NPS automated feedback surveying",
+        "Agent productivity dashboards and workload distribution"
+      ],
+      "deployment": "Cloud, Private Cloud, or On-Premise",
+      "summary": "Complete contact center and service desk suite empowering support agents to handle high query volumes across multiple touchpoints."
+    },
+    {
+      "id": "ciptadra-bpm",
+      "name": "Ciptadra Flow BPM",
+      "category": "Business Process Management",
+      "features": [
+        "Drag-and-drop workflow designer (BPMN 2.0)",
+        "Dynamic form generator with conditional validation",
+        "Multi-tier matrix approval chains (hierarchical, parallel, conditional)",
+        "Integration webhooks and REST connectors",
+        "Real-time bottleneck detection heatmaps"
+      ],
+      "deployment": "Enterprise On-Premise or Private Cloud",
+      "summary": "Enterprise workflow engine designed to orchestrate business procedures, reduce paperwork, and enforce regulatory compliance."
+    },
+    {
+      "id": "ciptadra-analytics",
+      "name": "Ciptadra Insight BI",
+      "category": "Data & Analytics",
+      "features": [
+        "Pre-built industry KPI visualization templates",
+        "In-memory analytical caching for instantaneous report rendering",
+        "Scheduled automated PDF/Excel report delivery to stakeholders",
+        "Row-level security and automated data anonymization",
+        "Direct connectors for Oracle, PostgreSQL, SQL Server, and BigQuery"
+      ],
+      "deployment": "Cloud or On-Premise",
+      "summary": "Modern business intelligence platform providing real-time operational transparency and strategic analytics."
+    },
+    {
+      "id": "ciptadra-ai-agent",
+      "name": "Ciptadra AI Virtual Assistant",
+      "category": "Artificial Intelligence",
+      "features": [
+        "Context-aware generative conversational engine",
+        "Internal enterprise document grounding (PDFs, DOCX, Notion, Wikis)",
+        "Automated tier-1 ticket resolution and escalation to human agents",
+        "Smart lead capture with direct CRM synchronization",
+        "Zero data-training clause ensuring enterprise data isolation"
+      ],
+      "deployment": "Cloud API or Secure Private Subnet",
+      "summary": "Enterprise generative AI assistant designed to handle customer queries, internal staff guidance, and business diagnostic recommendations."
+    },
+    {
+      "id": "ciptadra-integration-bus",
+      "name": "Ciptadra Enterprise Integration Gateway",
+      "category": "System Integration & Middleware",
+      "features": [
+        "Enterprise Service Bus (ESB) and API management layer",
+        "Legacy protocol transformation (SOAP, ISO 8583, AS2 to REST/JSON)",
+        "High-throughput message queuing and retry policies",
+        "Centralized rate limiting, API token management, and threat protection",
+        "Comprehensive distributed audit trace logs"
+      ],
+      "deployment": "On-Premise or Hybrid Cloud",
+      "summary": "Middleware infrastructure connecting disparate enterprise applications, legacy core systems, and modern SaaS endpoints."
+    }
+  ],
+  "industries": [
+    {
+      "id": "banking-finance",
+      "name": "Banking & Finance",
+      "tagline": "Compliant, high-throughput digital banking and financial workflows.",
+      "challengesAddressed": "High transaction volumes, strict compliance (OJK / Bank Indonesia standards), legacy core-banking integration, security audits.",
+      "popularSolutions": ["Enterprise Integration Gateway", "Omnichannel Customer Support", "AI Document Verification", "Anti-Fraud Workflow Automation"]
+    },
+    {
+      "id": "retail",
+      "name": "Retail & E-Commerce",
+      "tagline": "Omnichannel shopping experiences with unified inventory and customer care.",
+      "challengesAddressed": "Managing customer queries across WhatsApp and marketplaces, loyalty tracking, peak sale spikes, stock synchronization.",
+      "popularSolutions": ["Omnichannel Service Desk", "Ciptadra CRM Suite", "Real-Time Sales BI Dashboards"]
+    },
+    {
+      "id": "telecommunications",
+      "name": "Telecommunications",
+      "tagline": "Scalable customer care and provisioning automation for millions of subscribers.",
+      "challengesAddressed": "Extreme support query volume, complex billing system reconciliation, plan migration workflows.",
+      "popularSolutions": ["AI Virtual Assistant", "Automated Billing Workflow", "BPM Process Orchestration"]
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing & Supply Chain",
+      "tagline": "End-to-end operational visibility from procurement to factory distribution.",
+      "challengesAddressed": "Disjointed vendor communications, supply delays, quality inspection logging, paper-heavy procurement approvals.",
+      "popularSolutions": ["Ciptadra Flow BPM", "Supply Chain Analytics BI", "Vendor Integration Portal"]
+    },
+    {
+      "id": "government",
+      "name": "Government & Public Sector",
+      "tagline": "Modern, citizen-centric public service portals and bureaucratic workflow digitization.",
+      "challengesAddressed": "Multi-tier administrative approvals, archiving regulations, citizen service SLAs, data residency mandates.",
+      "popularSolutions": ["Public Service Portal & Ticketing", "Document Workflow Engine", "Secure On-Premise Deployment"]
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare & Pharmaceuticals",
+      "tagline": "Patient-first appointment scheduling, record integration, and clinical workflows.",
+      "challengesAddressed": "Fragmented patient communications, clinical document approvals, privacy regulations, hospital management system integration.",
+      "popularSolutions": ["Omnichannel Patient Helpdesk", "Clinical Workflow Automation", "Healthcare Analytics"]
+    },
+    {
+      "id": "other-enterprise",
+      "name": "Other Enterprises & Conglomerates",
+      "tagline": "Custom enterprise software architecture tailored to complex holding operations.",
+      "challengesAddressed": "Multi-subsidiary governance, inter-company billing, shared service centers.",
+      "popularSolutions": ["Shared Service CRM & Service Desk", "Enterprise Architecture Modernization", "Custom Cloud Solutions"]
+    }
+  ],
+  "services": [
+    {
+      "name": "Enterprise IT Consulting & Architecture Strategy",
+      "description": "Advising enterprise technology leaders on modern architecture, cloud adoption roadmap, microservices migration, and regulatory readiness."
+    },
+    {
+      "name": "Custom Software Development",
+      "description": "Tailor-made mission-critical web applications, enterprise portals, and mobile systems engineered to specific operational workflows."
+    },
+    {
+      "name": "Systems Integration & API Engineering",
+      "description": "Unifying ERPs (SAP, Oracle, Microsoft Dynamics), core banking, custom databases, and modern SaaS via robust enterprise middleware."
+    },
+    {
+      "name": "Enterprise AI Implementation & Guardrailing",
+      "description": "Deploying generative AI assistants, enterprise RAG pipelines, fine-tuned models, and document processing systems with strict privacy compliance."
+    },
+    {
+      "name": "Managed Services & 24/7 Enterprise SLA Support",
+      "description": "Dedicated engineering support, infrastructure monitoring, security updates, and performance tuning guaranteeing enterprise uptime."
+    }
+  ],
+  "capabilities": [
+    "Enterprise Security & ISO/IEC 27001 standard practices",
+    "Microservices and Cloud-Native (Kubernetes, Docker) deployments",
+    "On-Premise, Private Cloud, and Hybrid Deployment flexibility",
+    "Real-time High-Concurrency Message Processing",
+    "Role-Based Access Control (RBAC) & Single Sign-On (SSO / SAML / OAuth2)",
+    "Bilingual AI models: Bahasa Indonesia & English fluency",
+    "Zero-Data-Retention agreements for proprietary enterprise AI deployments"
+  ],
+  "faq": [
+    {
+      "question": "What is CiptadraSoft?",
+      "answer": "CiptadraSoft is an enterprise technology and software solution provider based in Indonesia. We specialize in digital transformation, business process automation (BPA), omnichannel customer service platforms, CRM, enterprise data analytics, and domain-grounded Generative AI solutions for corporations."
+    },
+    {
+      "question": "What products does CiptadraSoft offer?",
+      "answer": "CiptadraSoft offers a modular product portfolio including: Ciptadra CRM Suite, Ciptadra Omnichannel Service Desk, Ciptadra Flow BPM, Ciptadra Insight BI, Ciptadra AI Virtual Assistant, and Ciptadra Enterprise Integration Gateway."
+    },
+    {
+      "question": "Can CiptadraSoft solutions be deployed on-premise for strict compliance?",
+      "answer": "Yes. While our solutions are cloud-ready, all CiptadraSoft platforms can be deployed fully on-premise or within your private corporate virtual cloud (VPC) to meet strict data residency and regulatory mandates (e.g., OJK and Bank Indonesia regulations)."
+    },
+    {
+      "question": "How does CiptadraSoft help automate customer service?",
+      "answer": "Through the Ciptadra Omnichannel Service Desk and Ciptadra AI Virtual Assistant, we unify channels like WhatsApp, web chat, and email into one workspace. Routine inquiries (tier-1) are automatically handled by conversational AI, while complex tickets are routed with full context to human agents, reducing resolution time and agent workload."
+    },
+    {
+      "question": "Does CiptadraSoft support integration with legacy systems like SAP or Oracle?",
+      "answer": "Yes. Our Ciptadra Enterprise Integration Gateway is engineered specifically to bridge modern applications with legacy ERPs, AS/400 systems, core banking engines, and relational databases using standard REST APIs, SOAP, and message queues."
+    },
+    {
+      "question": "How can an enterprise get started with CiptadraSoft?",
+      "answer": "You can request a consultation or customized product demonstration by clicking 'Talk to Us' on our website, submitting the inquiry form in this chat, or emailing sales@ciptadrasoft.com. Our solution architects will conduct an initial discovery session to map your business requirements."
+    }
+  ]
+}
