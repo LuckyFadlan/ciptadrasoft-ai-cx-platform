@@ -87,6 +87,7 @@ export interface KnowledgeBase {
   solutions: SolutionItem[];
   products: ProductItem[];
   platforms?: any[];
+  onebox?: any;
   industries: IndustryItem[];
   services: ServiceItem[];
   capabilities: string[];

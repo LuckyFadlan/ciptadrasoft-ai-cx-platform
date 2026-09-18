@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAIProvider } from '@/lib/ai';
 import { retrieveKnowledge } from '@/lib/retrieval';
+import { searchWeb } from '@/lib/webSearch';
 import { detectLeadIntent, generateFollowUpSuggestions } from '@/lib/chatbotPrompt';
 import { ChatRequestPayload, ChatApiResponse } from '@/types/chatbot';
 
@@ -25,13 +26,36 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // 1. Retrieve grounded knowledge from local knowledge base
+    // 1. Retrieve grounded knowledge from local knowledge base (CiptadraSoft & Onebox)
     const retrieval = retrieveKnowledge(latestUserMessage.content);
 
-    // 2. Check for commercial / lead intent
+    // 2. Perform live internet & external web search in parallel
+    let webContext = '';
+    const webSourceTitles: string[] = [];
+    try {
+      const webResults = await searchWeb(latestUserMessage.content, 3);
+      if (webResults.length > 0) {
+        webContext = webResults
+          .map(r => `[Internet Source: ${r.source} - ${r.title}]\n${r.snippet}`)
+          .join('\n\n');
+        for (const r of webResults) {
+          webSourceTitles.push(`${r.source}: ${r.title}`);
+        }
+      }
+    } catch {
+      // Graceful fallback if web search times out
+    }
+
+    // Combine local official knowledge with live internet search context
+    const combinedContext = [
+      retrieval.contextText,
+      webContext ? `--- LIVE INTERNET & EXTERNAL SEARCH RESULTS ---\n${webContext}` : ''
+    ].filter(Boolean).join('\n\n');
+
+    // 3. Check for commercial / lead intent
     const hasLeadIntent = detectLeadIntent(latestUserMessage.content);
 
-    // 3. Call active AI provider (Gemini or OpenAI)
+    // 4. Call active AI provider (Gemini or OpenAI)
     const provider = getAIProvider();
     
     let reply = '';
@@ -40,26 +64,29 @@ export async function POST(req: NextRequest) {
     try {
       const result = await provider.generateResponse({
         messages,
-        knowledgeContext: retrieval.contextText
+        knowledgeContext: combinedContext
       });
       reply = result.reply;
     } catch (apiError: unknown) {
       const errMsg = apiError instanceof Error ? apiError.message : String(apiError);
       console.error('[Chat API Error]:', errMsg);
       
-      // UX requirement: "Ciptadra AI is temporarily unavailable. Please try again or contact our team."
-      reply = "Ciptadra AI is temporarily unavailable. Please try again or contact our team directly at info@ciptadrasoft.com or +62 21 555 0192.";
+      // Fallback
+      reply = "Ciptadra AI is temporarily unavailable. Please try again or contact our team directly at marketing@ciptadrasoft.com or +62 21 7271051.";
       isFallback = true;
     }
 
-    // 4. Generate dynamic follow-up chips
+    // 5. Generate dynamic follow-up chips
     const followUps = generateFollowUpSuggestions(latestUserMessage.content, reply);
+
+    // Combine grounded sources from local knowledge base and web search
+    const allSources = Array.from(new Set([...retrieval.sourceTitles, ...webSourceTitles]));
 
     const responsePayload: ChatApiResponse = {
       reply,
       suggestedFollowUps: followUps,
       showLeadForm: hasLeadIntent,
-      groundedSources: retrieval.sourceTitles,
+      groundedSources: allSources,
       error: isFallback ? 'API_UNAVAILABLE' : undefined
     };
 

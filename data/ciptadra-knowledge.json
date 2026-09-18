@@ -508,6 +508,22 @@
     {
       "question": "Bagaimana cara menghubungi CiptadraSoft?",
       "answer": "Anda dapat menghubungi kantor pusat CiptadraSoft di Ciptadra Innovation Tower, Jl. Margonda Raya, JL STM Mandiri No. 1A, Depok 16423, Jawa Barat. Telepon: +62 21 7271051, WhatsApp Marketing: 081383249247, atau email: marketing@ciptadrasoft.com. Kunjungi juga website resmi kami di https://ciptadrasoft.com."
+    },
+    {
+      "question": "Apa itu Onebox (onebox.co.id)?",
+      "answer": "Onebox (https://onebox.co.id) adalah platform omnichannel enterprise unggulan dari PT Ciptadra Softindo yang menyatukan komunikasi, alur kerja tugas (auto ticket & SLA), dan data pelanggan ke dalam satu sistem terpadu. Digunakan oleh instansi pemerintah, BUMN, dan korporasi besar di 60+ wilayah nasional untuk mengelola customer service (Onebox CX), kehumasan (Onebox PR), sistem antrian, WhatsApp Business API resmi, telemarketing, telecollection, dan media monitoring."
+    },
+    {
+      "question": "Apa perbedaan Onebox CX dan Onebox PR?",
+      "answer": "Onebox CX berfokus pada pengelolaan pengalaman pelanggan (Customer Experience) secara omnichannel—mencakup contact center (WhatsApp, telepon, medsos, email, live chat, Google Review), tiket otomatis, sistem antrian loket, CRM 360, chatbot 24/7, dan survey CSAT. Sedangkan Onebox PR berfokus pada kehumasan dan reputasi publik—mencakup monitoring media massa & media sosial real-time, analisis sentimen berbasis AI, verifikasi isu / penangkal hoaks, dan dashboard reputasi untuk pimpinan."
+    },
+    {
+      "question": "Apa saja saluran (channels) yang didukung oleh Onebox Omnichannel?",
+      "answer": "Onebox mendukung WhatsApp Business API resmi (centang hijau), Panggilan Telepon/Call Center PBX, Instagram DM & Comment, Facebook Messenger, X (Twitter), TikTok, Email, Website Live Chat, hingga Google Review—semuanya tersinkronisasi dalam satu Unified Inbox."
+    },
+    {
+      "question": "Apakah Onebox dapat diakses melalui Cloud atau On-Premise?",
+      "answer": "Onebox sangat fleksibel: dapat diakses langsung melalui Cloud SaaS di https://cloud.onebox.co.id/LoginSite/, dideploy di Private Cloud instansi, ataupun diinstal On-Premise pada data center pelanggan untuk kepatuhan keamanan data yang ketat."
     }
   ],
   "solutions": [
@@ -760,5 +776,207 @@
     "Didukung 80+ software engineers di Ciptadra Innovation Tower, Margonda Raya, Depok",
     "Berhasil mengekspor solusi perangkat lunak ke Hong Kong, Thailand, Cina, dan Spanyol",
     "Dipercaya oleh lebih dari 200 klien aktif di berbagai sektor strategis Indonesia"
-  ]
+  ],
+  "onebox": {
+    "website": "https://onebox.co.id",
+    "cloudPortal": "https://cloud.onebox.co.id/LoginSite/",
+    "tagline": "Solusi Omnichannel Enterprise & Kendali Penuh atas Pengalaman Pelanggan dalam Satu Platform",
+    "coverage": "Digunakan oleh institusi pemerintah, perusahaan, dan organisasi besar untuk mengelola komunikasi dan operasi skala nasional di 60+ wilayah dengan ribuan pengguna.",
+    "pillars": [
+      {
+        "name": "Onebox CX (Customer Experience Omnichannel)",
+        "description": "Platform omnichannel enterprise untuk mengelola interaksi pelanggan secara terpadu, efisien, dan berorientasi pada kepuasan (CSAT). Menyatukan saluran komunikasi, alur kerja tugas (auto ticket & SLA), dan data pelanggan.",
+        "industryFlavors": [
+          {
+            "name": "Onebox Telco",
+            "industry": "Telekomunikasi",
+            "description": "Penanganan gangguan/pengaduan terhubung dengan data pelanggan, billing, serta otomasi work order."
+          },
+          {
+            "name": "Onebox Insurance",
+            "industry": "Finansial & Asuransi",
+            "description": "Integrasi data nasabah, survey, informasi simulasi premi, interaksi & notifikasi via WhatsApp Business resmi."
+          },
+          {
+            "name": "Onebox RS",
+            "industry": "Rumah Sakit & Kesehatan",
+            "description": "Kemudahan integrasi dengan data pasien, jadwal praktek dokter, serta informasi produk dan layanan RS."
+          },
+          {
+            "name": "Onebox Property",
+            "industry": "Properti & Real Estate",
+            "description": "Manajemen siklus prospek, penanganan pertanyaan unit properti, dan pelacakan interaksi klien."
+          },
+          {
+            "name": "Onebox Gov",
+            "industry": "Pemerintahan & SPBE",
+            "description": "Integrasi dengan portal layanan publik untuk pengaduan dan aspirasi warga secara omnichannel."
+          },
+          {
+            "name": "Onebox Retail",
+            "industry": "Retail & E-commerce",
+            "description": "Integrasi data pelanggan, eksternal sistem, dan informasi billing via WhatsApp Bot."
+          },
+          {
+            "name": "Onebox Non-Profit & MLM",
+            "industry": "Organisasi Nirlaba & Komunitas",
+            "description": "Sosialisasi program dan penanganan keluhan multi-kanal yang direspons cepat."
+          }
+        ],
+        "customerJourney": [
+          {
+            "step": 1,
+            "title": "Terima Interaksi Pelanggan",
+            "channels": [
+              "WhatsApp Business API Resmi",
+              "Telepon/Call Center PBX",
+              "Instagram DM",
+              "Facebook Messenger",
+              "X / Twitter",
+              "TikTok",
+              "Email",
+              "Website Live Chat",
+              "Google Review"
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Satukan Semua Kanal",
+            "features": [
+              "Unified Inbox",
+              "Customer Profile 360",
+              "Riwayat Interaksi Lengkap",
+              "Auto Ticket Generation",
+              "Sinkronisasi Percakapan Real-time"
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Proses & Selesaikan",
+            "features": [
+              "Auto Assign Agent (keahlian/round-robin)",
+              "SLA Management & Escalation",
+              "Knowledge Base Guidance",
+              "AI Suggested Reply & Auto-complete",
+              "Reminder & Follow Up"
+            ]
+          },
+          {
+            "step": 4,
+            "title": "Pantau & Kendalikan Kinerja",
+            "features": [
+              "Monitoring SLA Real-Time",
+              "Agent Performance Tracking",
+              "Workload Management",
+              "Quality Assurance (QA)",
+              "Supervisor Dashboard"
+            ]
+          },
+          {
+            "step": 5,
+            "title": "Analisis & Tingkatkan Loyalitas",
+            "features": [
+              "Customer Insight & Retention",
+              "Sentiment Analysis AI",
+              "Performance Reporting",
+              "Campaign Effectiveness",
+              "Executive Analytics"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Onebox PR (Public Relation Management)",
+        "description": "Platform terpadu untuk mengelola komunikasi publik, rilis berita, manajemen isu, dan reputasi organisasi secara cepat, akurat, dan terukur.",
+        "features": [
+          "Monitoring Isu Real-Time dari media online dan media sosial seketika",
+          "Analisis Sentimen & Media (memahami opini publik secara komprehensif)",
+          "Manajemen Konten & Publikasi terkoordinasi lintas kanal",
+          "Pelaporan & Executive Dashboard untuk pimpinan dan humas"
+        ]
+      }
+    ],
+    "subProducts": [
+      {
+        "category": "Customer Service Omnichannel",
+        "items": [
+          {
+            "name": "Contact Center Omnichannel",
+            "desc": "Integrasi WhatsApp, Telepon, Email, Medsos, Webchat, dan Google Review dalam satu inbox."
+          },
+          {
+            "name": "Ticket Management & SLA",
+            "desc": "Manajemen tiket dengan auto-numbering, auto-assignment, dan SLA monitoring ketat."
+          },
+          {
+            "name": "Chatbot AI 24/7",
+            "desc": "Asisten cerdas otomasi respon FAQ, kualifikasi prospek, dan eskalasi ke agen manusia."
+          },
+          {
+            "name": "Customer Relationship (CRM 360)",
+            "desc": "Profil terpusat data kontak, histori layanan, segmentasi, dan preferensi pelanggan."
+          },
+          {
+            "name": "Sistem Antrian Cerdas",
+            "desc": "Manajemen antrian fisik dan digital dengan kiosk tiket, display TV loket, panggilan TTS, dan notifikasi WhatsApp."
+          },
+          {
+            "name": "Outbound Reminder & Sapa Salam",
+            "desc": "Pesan pengingat otomatis jadwal temu, ulang tahun, dan konfirmasi reservasi."
+          }
+        ]
+      },
+      {
+        "category": "Marketing & Sales",
+        "items": [
+          {
+            "name": "Prospect & Sales Management",
+            "desc": "Visual pipeline prospek penjualan dari leads masuk hingga deal closing."
+          },
+          {
+            "name": "Telemarketing Smart Dialer",
+            "desc": "Predictive/progressive dialer dengan call recording dan evaluasi performa agen sales."
+          },
+          {
+            "name": "Outbound & Broadcast Omnichannel",
+            "desc": "Kirim pesan siaran promosi resmi WhatsApp Business API (centang hijau) dengan template terverifikasi."
+          }
+        ]
+      },
+      {
+        "category": "Customer Feedback & Media Intelligence",
+        "items": [
+          {
+            "name": "Customer Feedback & CSAT",
+            "desc": "Survei kepuasan instan setelah tiket selesai untuk mengukur skor CSAT dan sentimen."
+          },
+          {
+            "name": "Media Monitoring",
+            "desc": "Pantau percakapan netizen, tagar, dan topik yang berhubungan dengan instansi."
+          },
+          {
+            "name": "Onebox PR",
+            "desc": "Sistem komando rilis berita dan perlindungan reputasi organisasi."
+          }
+        ]
+      },
+      {
+        "category": "Layanan Managed & BPO",
+        "items": [
+          {
+            "name": "API Omnichannel",
+            "desc": "RESTful API terbuka untuk integrasi ke core banking, ERP, CRM existing, dan sistem kustom."
+          },
+          {
+            "name": "BPO (Business Process Outsourcing)",
+            "desc": "Penyediaan tim agen terlatih untuk contact center, telemarketing, dan telecollection."
+          },
+          {
+            "name": "Telecollection",
+            "desc": "Otomatisasi pengingat jatuh tempo pembayaran premi dan kredit nasabah."
+          }
+        ]
+      }
+    ]
+  }
 }

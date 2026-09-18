@@ -4,7 +4,7 @@ import { KnowledgeBase, SolutionItem, ProductItem, IndustryItem, FAQItem } from 
 const knowledge: KnowledgeBase = knowledgeData as KnowledgeBase;
 
 export interface RetrievedSnippet {
-  type: 'company' | 'solution' | 'product' | 'industry' | 'service' | 'capability' | 'faq' | 'client';
+  type: 'company' | 'solution' | 'product' | 'industry' | 'service' | 'capability' | 'faq' | 'client' | 'onebox';
   title: string;
   content: string;
   score: number;
@@ -211,7 +211,44 @@ export function retrieveKnowledge(query: string, maxItems = 5): RetrievalResult 
     }
   }
 
-  // 10. Check FAQs
+  // 10. Check Onebox Platform & Ecosystem (onebox.co.id)
+  if (knowledge.onebox) {
+    const isOneboxQuery = queryTokens.some(t => ['onebox', 'cx', 'omnichannel', 'contact', 'antrian', 'telemarketing', 'telecollection', 'broadcast', 'inbox', 'csat', 'feedback', 'pr', 'humas'].includes(t)) || lowerQuery.includes('onebox');
+
+    // Onebox CX & Customer Journey
+    const cxPillar = knowledge.onebox.pillars?.find((p: any) => p.name.includes('Onebox CX'));
+    if (cxPillar) {
+      const cxScore = calculateScore(queryTokens, `${cxPillar.name} ${cxPillar.description}`) + (isOneboxQuery ? 7 : 0);
+      if (cxScore > 0) {
+        const journeyText = cxPillar.customerJourney?.map((j: any) => `Tahap ${j.step} (${j.title}): ${j.channels ? 'Kanal: ' + j.channels.join(', ') : 'Fitur: ' + j.features.join(', ')}`).join('\n') || '';
+        const flavorsText = cxPillar.industryFlavors?.map((f: any) => `- **${f.name}** (${f.industry}): ${f.description}`).join('\n') || '';
+        candidates.push({
+          type: 'onebox',
+          title: 'Onebox CX (Customer Experience Omnichannel)',
+          content: `${cxPillar.description}\n\nCustomer Journey 5 Tahap:\n${journeyText}\n\nSolusi Industri Khusus:\n${flavorsText}`,
+          score: cxScore
+        });
+      }
+    }
+
+    // Onebox Sub-Products
+    if (knowledge.onebox.subProducts) {
+      for (const cat of knowledge.onebox.subProducts) {
+        const catText = `${cat.category} ` + cat.items.map((it: any) => `${it.name}: ${it.desc}`).join(' | ');
+        const score = calculateScore(queryTokens, catText) + (isOneboxQuery ? 5 : 0);
+        if (score > 0) {
+          candidates.push({
+            type: 'onebox',
+            title: `Onebox: ${cat.category}`,
+            content: `Kategori ${cat.category} di Onebox:\n` + cat.items.map((it: any) => `- **${it.name}**: ${it.desc}`).join('\n'),
+            score
+          });
+        }
+      }
+    }
+  }
+
+  // 11. Check FAQs
   for (const faq of knowledge.faq) {
     const text = `${faq.question} ${faq.answer}`;
     const score = calculateScore(queryTokens, text, 1.5);
@@ -276,6 +313,10 @@ export function getAllProducts(): ProductItem[] {
 
 export function getAllClients() {
   return knowledge.clients;
+}
+
+export function getOneboxInfo() {
+  return knowledge.onebox;
 }
 
 export function getAllIndustries(): IndustryItem[] {
