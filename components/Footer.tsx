@@ -39,11 +39,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenChat, onOpenConsultation }
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span>{company.contact.email} / {company.contact.salesEmail}</span>
+                <span>{company.contact.email}</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-indigo-400 shrink-0" />
-                <span>{company.contact.phone} ({company.contact.businessHours})</span>
+                <span>{company.contact.phone} • WA: {company.contact.whatsapp || '081383249247'}</span>
               </div>
             </div>
           </div>
@@ -60,16 +60,17 @@ export const Footer: React.FC<FooterProps> = ({ onOpenChat, onOpenConsultation }
             </ul>
           </div>
 
-          {/* Column 4: Core Solutions */}
+          {/* Column 4: 7 Core Platforms */}
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Solutions</h4>
-            <ul className="space-y-2.5 text-xs text-slate-300">
-              <li><a href="#solutions" className="hover:text-white transition-colors">Enterprise Solutions</a></li>
-              <li><a href="#solutions" className="hover:text-white transition-colors">Omnichannel Customer Service</a></li>
-              <li><a href="#solutions" className="hover:text-white transition-colors">Digital Modernization</a></li>
-              <li><a href="#solutions" className="hover:text-white transition-colors">Flow BPM Automation</a></li>
-              <li><a href="#solutions" className="hover:text-white transition-colors">Data &amp; Executive BI</a></li>
-              <li><a href="#solutions" className="hover:text-white transition-colors">Domain Generative AI</a></li>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">7 Platform Utama</h4>
+            <ul className="space-y-2 text-xs text-slate-300">
+              <li><a href="#products" className="hover:text-white transition-colors">Onebox CRM (Omnichannel)</a></li>
+              <li><a href="#products" className="hover:text-white transition-colors">Onebox Smartcity (SPBE)</a></li>
+              <li><a href="#products" className="hover:text-white transition-colors">Onebox Insurance</a></li>
+              <li><a href="#products" className="hover:text-white transition-colors">Onebox Data Warehouse &amp; BI</a></li>
+              <li><a href="#products" className="hover:text-white transition-colors">Onebox Digital</a></li>
+              <li><a href="#products" className="hover:text-white transition-colors">Onebox PR (Humas &amp; Sentimen)</a></li>
+              <li><a href="#products" className="hover:text-white transition-colors">Ciptalife (Wellbeing &amp; SatuSehat)</a></li>
             </ul>
           </div>
 

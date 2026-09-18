@@ -2,309 +2,763 @@
   "company": {
     "name": "CiptadraSoft",
     "legalName": "PT Ciptadra Softindo",
-    "tagline": "Creative Engineering & Technology Innovation",
-    "description": "PT Ciptadra Softindo (CiptadraSoft) adalah perusahaan creative engineering dan inovasi teknologi yang berdiri sejak tahun 1999, berfokus pada solusi omnichannel contact center, CRM, sistem antrian cerdas, digitalisasi asuransi (Orbeets), custom software, dan IoT development.",
+    "tagline": "Creative Engineering Company",
+    "motto": "Simplify Your Works With Our Solution",
+    "description": "PT Ciptadra Softindo (CiptadraSoft) berdiri sejak tahun 1999 (25+ tahun pengalaman) adalah perusahaan Creative Engineering Company dan konsultan inovasi teknologi asal Indonesia. Memiliki 80+ software engineers, 200+ klien aktif di sektor perbankan, asuransi, pemerintahan, dan telekomunikasi, menangani lebih dari 18.000 interaksi harian dengan skor kepuasan pelanggan (CSAT) mencapai 94%. CiptadraSoft juga telah berhasil mengekspor aplikasi inovasi perangkat lunak ke Hong Kong, Thailand, Cina, dan Spanyol.",
     "founded": "1999",
+    "stats": {
+      "yearsExperience": "25+",
+      "activeClients": "200+",
+      "engineers": "80+",
+      "dailyInteractions": "18.000+",
+      "csatScore": "94%",
+      "industriesServed": "10+",
+      "exportCountries": [
+        "Hong Kong",
+        "Thailand",
+        "Cina",
+        "Spanyol"
+      ]
+    },
     "headquarters": "Depok, Jawa Barat, Indonesia",
-    "address": "Ciptadra Innovation Tower, Jl. STM Mandiri No. 1, Jl. Margonda Raya, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423",
-    "presence": ["Jakarta", "Depok", "Surabaya", "Bandung", "Regional Indonesia"],
-    "mission": "Memberdayakan organisasi bisnis dan pemerintahan melalui solusi perangkat lunak yang scalable, terintegrasi, dan berorientasi pada peningkatan customer experience.",
+    "address": "Ciptadra Innovation Tower, Margonda Raya, JL STM Mandiri No. 1A, Kemiri Muka, Kec. Beji, Kota Depok, Jawa Barat 16423",
+    "officeSize": "1.000 m²",
+    "presence": [
+      "Jakarta",
+      "Depok",
+      "Surabaya",
+      "Bandung",
+      "Regional Indonesia & Internasional"
+    ],
+    "mission": "Membantu individu dan organisasi meningkatkan penjualan, mengoptimalkan cara kerja, mempermudah proses operasional, meningkatkan efisiensi, dan mendukung pengambilan keputusan yang lebih baik berbasis data dan teknologi.",
     "values": [
       "Creative Engineering",
       "Customer-Centric Innovation",
-      "Robust Data Security & Compliance",
       "Scalable Omnichannel Architecture",
-      "Pragmatic Enterprise Modernization"
+      "SPBE & Smart City Leadership",
+      "Strict Regulatory Compliance (OJK, BI, SatuSehat, UU PDP)"
     ],
     "contact": {
       "email": "marketing@ciptadrasoft.com",
-      "supportEmail": "support@ciptadrasoft.com",
       "phone": "+62 21 7271051",
       "whatsapp": "081383249247",
-      "address": "Ciptadra Innovation Tower, Jl. Margonda Raya, Depok 16423",
-      "websites": ["https://ciptadrasoft.com", "https://onebox.co.id", "https://orbeets.co.id"],
-      "businessHours": "Senin - Jumat, 08:30 - 17:30 WIB"
+      "address": "Ciptadra Innovation Tower, Margonda Raya, JL STM Mandiri No. 1A, Pancoran Mas / Beji, Kota Depok, Jawa Barat 16423",
+      "website": "https://ciptadrasoft.com",
+      "businessHours": "Senin - Jumat, 08:30 - 17:30 WIB",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/company/ciptadrasoftindo",
+        "twitter": "https://x.com/ciptadrasoft",
+        "instagram": "https://www.instagram.com/ciptadrasoftindo/"
+      }
     }
   },
+  "platforms": [
+    {
+      "id": "onebox-crm",
+      "name": "Onebox CRM",
+      "fullName": "Onebox Omnichannel CRM & Customer Experience",
+      "category": "Customer Service, Sales & Omnichannel",
+      "tagline": "Semua Saluran Pelanggan dalam Satu Dasbor Terpadu",
+      "summary": "Platform unggulan Onebox CRM menyatukan seluruh kanal komunikasi pelanggan (WhatsApp Business API, Email, Media Sosial, Voice, Webchat, Play Store) ke dalam satu sistem terintegrasi dengan otomatisasi tiket, chatbot AI, dan analitik CSAT.",
+      "description": "Onebox CRM dirancang untuk meningkatkan efisiensi operasional customer care dan tim sales hingga 70%. Dilengkapi fitur omnichannel inbox, ticketing management berbasis SLA, intelligent chatbot 24/7, telemarketing predictive dialer, telecollection, broadcast messaging resmi, survey kepuasan pelanggan (CSAT), dan sistem antrian terintegrasi.",
+      "subFeatures": [
+        {
+          "name": "Contact Center Omnichannel",
+          "description": "Menyatukan WhatsApp Business API, Instagram DM, Facebook Messenger, X/Twitter, Email, Telepon/Voice PBX, dan Webchat ke dalam satu layar agen terpadu."
+        },
+        {
+          "name": "Ticket Management & SLA",
+          "description": "Sistem tiket otomatis dengan auto-numbering, auto-assignment berdasarkan keahlian agen, prioritas SLA, dan eskalasi bertingkat."
+        },
+        {
+          "name": "AI Chatbot 24/7",
+          "description": "Asisten virtual pintar yang melayani interaksi pelanggan sepanjang waktu, menjawab FAQ otomatis, kualifikasi lead, dan serah terima mulus ke agen manusia."
+        },
+        {
+          "name": "Customer Relationship 360",
+          "description": "Profil pelanggan terpadu, riwayat kontak lengkap, segmentasi pelanggan, serta riwayat pembelian/interaksi lintas kanal."
+        },
+        {
+          "name": "Sistem Antrian Terintegrasi",
+          "description": "Integrasi mesin antrean dengan contact center dan notifikasi WhatsApp langsung ke ponsel nasabah atau pasien."
+        },
+        {
+          "name": "Outbound & Sapa Salam (Reminder)",
+          "description": "Pengingat otomatis jadwal temu, salam ulang tahun, dan konfirmasi reservasi melalui WhatsApp dan SMS resmi."
+        },
+        {
+          "name": "Prospect & Sales Management",
+          "description": "Manajemen alur prospek dari leads masuk, pipeline penawaran, hingga closing dan konversi penjualan."
+        },
+        {
+          "name": "Telemarketing",
+          "description": "Sistem dialer pintar (preview, progressive, predictive dialer) dengan manajemen database prospek dan rekaman panggilan."
+        },
+        {
+          "name": "Outbound & Broadcast",
+          "description": "Kirim pesan siaran massal resmi WhatsApp Business API dengan template terverifikasi untuk promo, pengumuman, dan notifikasi penting."
+        },
+        {
+          "name": "Telecollection",
+          "description": "Otomatisasi pengingat tagihan dan penagihan premi/kredit dengan jadwal reminder multi-kanal dan status pembayaran real-time."
+        },
+        {
+          "name": "Customer Feedback & CSAT/NPS",
+          "description": "Survei kepuasan pelanggan otomatis setelah percakapan selesai, memberikan laporan skor CSAT dan sentimen layanan secara real-time."
+        },
+        {
+          "name": "Media Monitoring & BPO",
+          "description": "Pemantauan percakapan publik di media sosial dan dukungan layanan Business Process Outsourcing terlatih."
+        }
+      ],
+      "url": "https://ciptadrasoft.com/onebox-crm"
+    },
+    {
+      "id": "onebox-smartcity",
+      "name": "Onebox Smartcity (E-Government)",
+      "fullName": "Onebox Smartcity & Solusi SPBE Pemerintah Daerah",
+      "category": "E-Government & Smart City",
+      "tagline": "Inovasi Kota Digital & Pengaduan Publik Terpadu",
+      "summary": "Platform E-Government terpadu untuk Pemerintah Provinsi, Kota, dan Kabupaten dalam mewujudkan Smart City, integrasi Satu Data, SPBE, serta layanan publik omnichannel responsif.",
+      "description": "Onebox Smartcity membantu instansi pemerintah daerah merancang roadmap inovasi digital, mengintegrasikan pusat data kota (Big Data OPD), membangun Super Apps layanan warga, portal cerdas, dan sistem pengaduan publik omnichannel yang terhubung langsung ke dinas-dinas teknis.",
+      "subFeatures": [
+        {
+          "name": "Core System Smartcity & SPBE",
+          "description": "Fondasi tata kelola pemerintahan digital sesuai kerangka kerja Sistem Pemerintahan Berbasis Elektronik (SPBE) nasional."
+        },
+        {
+          "name": "Pusat Data Kota (City Data Center)",
+          "description": "Integrasi data lintas OPD (Organisasi Perangkat Daerah) dalam satu arsitektur terpadu untuk Satu Data Indonesia."
+        },
+        {
+          "name": "Super Apps Kota (Citizen App)",
+          "description": "Satu aplikasi mobile untuk seluruh kebutuhan warga, mulai dari layanan kependudukan, perizinan, kesehatan, hingga pembayaran pajak daerah."
+        },
+        {
+          "name": "Omnichannel Layanan Pengaduan Publik",
+          "description": "Penerimaan aspirasi dan aduan warga dari WhatsApp, media sosial, portal web, dan aplikasi; otomatis didistribusikan ke dinas penanggung jawab disertai SLA tindak lanjut."
+        },
+        {
+          "name": "AI Government & Analitik Kota",
+          "description": "Pemanfaatan Artificial Intelligence untuk analisis sentimen warga, deteksi masalah perkotaan, dan proyeksi kebutuhan anggaran publik."
+        },
+        {
+          "name": "Smart Portal Informasi & Wisata",
+          "description": "Portal web resmi kota yang menyajikan berita transparansi, agenda kegiatan, layanan publik, dan peta potensi daerah."
+        },
+        {
+          "name": "Roadmap Inovasi Teruji",
+          "description": "Telah diimplementasikan dan dipercaya di Pemprov Jawa Barat, Pemprov Kota Bandung, Pemprov Kota Bogor, Pemprov Sumatera Utara, Kemenkeu, Kominfo, dan Kemhan."
+        }
+      ],
+      "url": "https://ciptadrasoft.com/onebox-smartcity"
+    },
+    {
+      "id": "onebox-insurance",
+      "name": "Onebox Insurance",
+      "fullName": "Onebox Insurance Core System & Telemarketing",
+      "category": "Perbankan & Asuransi (Insurtech)",
+      "tagline": "Transformasi Digital Core Asuransi Jiwa & Kesehatan",
+      "summary": "Solusi core system dan operasional terlengkap untuk industri asuransi jiwa, umum, dan kesehatan dengan kepatuhan penuh regulasi OJK.",
+      "description": "Onebox Insurance menghadirkan ekosistem teknologi modern bagi perusahaan asuransi: mulai dari pengelolaan polis, telemarketing dengan auto-dialer, manajemen prospek, tools komisi agen bertingkat, telecollection premi, dan data warehouse aktuaria.",
+      "subFeatures": [
+        {
+          "name": "Core System Asuransi",
+          "description": "Manajemen end-to-end polis asuransi jiwa dan kesehatan: penerbitan polis, renewal, klaim, hingga underwriting."
+        },
+        {
+          "name": "Telemarketing Asuransi",
+          "description": "Sistem outbound call center khusus penjualan produk asuransi dengan manajemen leads tersegmentasi dan kepatuhan regulasi."
+        },
+        {
+          "name": "Prospek & Sales Management",
+          "description": "Pelacakan pipeline penjualan asuransi dari lead awal hingga konversi polis aktif."
+        },
+        {
+          "name": "Contact Center & Ticket Klaim",
+          "description": "Layanan pelanggan pemegang polis omnichannel untuk bantuan darurat, cek status klaim, dan informasi manfaat."
+        },
+        {
+          "name": "Tools Komisi Agen",
+          "description": "Perhitungan otomatis komisi, override agen, bonus performa berjenjang (multi-tier), dan pelaporan pajak agen."
+        },
+        {
+          "name": "Outbound Telecollection Premi",
+          "description": "Pengingat otomatis jatuh tempo premi melalui WhatsApp resmi dan panggilan otomatis guna menjaga persistensi polis nasabah."
+        },
+        {
+          "name": "Data Warehouse & Analitik Aktuaria",
+          "description": "Penyimpanan data polis dan klaim terpadu untuk analisis risiko aktuaria, rasio klaim, dan dashboard pimpinan."
+        }
+      ],
+      "url": "https://ciptadrasoft.com/onebox-insurance"
+    },
+    {
+      "id": "onebox-datawarehouse",
+      "name": "Onebox Data Warehouse & BI",
+      "fullName": "Onebox Data Warehouse & Business Intelligence Dashboard",
+      "category": "Big Data & Executive Analytics",
+      "tagline": "Ubah Data Multi-Sumber Menjadi Keputusan Strategis",
+      "summary": "Platform data warehouse terintegrasi dan dasbor Business Intelligence real-time untuk pemerintah daerah dan korporasi multi-divisi.",
+      "description": "Onebox Data Warehouse menyatukan silo data yang terpisah-pisah dari database transaksional, sistem pihak ketiga, dan spreadsheet ke dalam satu data repository yang bersih, andal, dan siap dianalisis untuk mendukung keputusan pimpinan.",
+      "subFeatures": [
+        {
+          "name": "Core System Data Warehouse",
+          "description": "Proses ETL (Extract, Transform, Load) otomatis yang menghubungkan berbagai database heterogen ke dalam satu data lake/warehouse."
+        },
+        {
+          "name": "Dashboard Sektor Pemerintahan",
+          "description": "Visualisasi KPI terpadu untuk Kesehatan, Pendidikan, PAD (Pendapatan Asli Daerah), Kependudukan, Perizinan, UMKM, dan Urusan Sosial."
+        },
+        {
+          "name": "Dashboard Korporasi & Bisnis",
+          "description": "Pemantauan KPI real-time untuk Customer Service (CSAT, FCR), Efektivitas Marketing, Kinerja Sales, dan Pertumbuhan Finansial."
+        },
+        {
+          "name": "Analisis Pertumbuhan & Tren",
+          "description": "Laporan prediktif dan proyeksi masa depan berbasis data historis menggunakan machine learning."
+        },
+        {
+          "name": "Akses Berjenjang & Aman",
+          "description": "Hak akses berbasis peran (RBAC) untuk pimpinan eksekutif, kepala dinas, dan tim operasional dengan enkripsi ketat."
+        }
+      ],
+      "url": "https://ciptadrasoft.com/onebox-datawarehouse"
+    },
+    {
+      "id": "onebox-digital",
+      "name": "Onebox Digital",
+      "fullName": "Onebox Digital & Creative Branding Agency",
+      "category": "Digital Branding & Web/Mobile Development",
+      "tagline": "Solusi Visual, Portal Digital, & Strategi Brand",
+      "summary": "Layanan agensi digital terpadu untuk membangun citra profesional korporat dan instansi melalui website interaktif, company profile, medsos, dan video produk.",
+      "description": "Onebox Digital mengombinasikan keahlian software engineering dengan estetika visual kreatif untuk menghasilkan portal web performa tinggi, profil perusahaan yang elegan, serta strategi media sosial yang engaging.",
+      "subFeatures": [
+        {
+          "name": "Pembuatan Website Modern",
+          "description": "Desain dan pengembangan website korporat, portal pemerintah, atau web app responsif dengan standar keamanan tinggi dan SEO-friendly."
+        },
+        {
+          "name": "Pembuatan Company Profile",
+          "description": "Penyusunan booklet profil perusahaan digital dan cetak yang memperkuat kredibilitas dan memikat investor/klien."
+        },
+        {
+          "name": "Pengelolaan Media Sosial (SMM)",
+          "description": "Perencanaan konten, copywriting, desain grafis, hingga publikasi terjadwal di Instagram, LinkedIn, YouTube, dan TikTok."
+        },
+        {
+          "name": "Pembuatan Video Profil & Produk",
+          "description": "Produksi video sinematik berkualitas tinggi untuk profil organisasi, demo produk interaktif, dan materi promosi perusahaan."
+        }
+      ],
+      "url": "https://ciptadrasoft.com/onebox-digital"
+    },
+    {
+      "id": "onebox-pr",
+      "name": "Onebox PR (Public Relation)",
+      "fullName": "Onebox Public Relation & Media Intelligence",
+      "category": "Humas, Media Monitoring & Sentiment Analysis",
+      "tagline": "Kendali Penuh Informasi, Berita & Reputasi Organisasi Anda",
+      "summary": "Sistem terintegrasi untuk humas pemerintah dan korporasi dalam mengelola penerimaan informasi, verifikasi berita, analisis sentimen AI, dan proteksi reputasi publik.",
+      "description": "Onebox PR memecahkan masalah informasi tersebar dan distribusi lambat di divisi kehumasan. Menggabungkan monitoring media online dan media sosial, klasifikasi topik otomatis, analisis sentimen positif/negatif, serta dashboard pimpinan real-time untuk pengambilan respon krisis yang cepat.",
+      "subFeatures": [
+        {
+          "name": "Penerimaan Informasi Terpusat",
+          "description": "Menampung informasi dari media online, media sosial, OPD/internal dinas, masyarakat, dan partner ke dalam satu pintu."
+        },
+        {
+          "name": "Validasi & Verifikasi Isu",
+          "description": "Penyaringan berita faktual dan penangkalan misinformasi atau hoaks sebelum menyebar luas."
+        },
+        {
+          "name": "Analisis Sentimen Otomatis (AI)",
+          "description": "Mesin NLP AI yang mendeteksi sentimen publik (positif, netral, negatif) terhadap kebijakan, rilis pers, atau brand."
+        },
+        {
+          "name": "Pemetaan Tokoh & Wilayah",
+          "description": "Analisis persebaran isu berdasarkan wilayah geografis dan identifikasi influencer / figur kunci yang bersuara."
+        },
+        {
+          "name": "Distribusi Berita Cepat & Terkontrol",
+          "description": "Sistem penerbitan rilis pers dan distribusi materi ke portal website, rekanan media massa, dan kanal pimpinan."
+        },
+        {
+          "name": "Executive Dashboard Pimpinan",
+          "description": "Laporan berkala dan real-time monitoring reputasi langsung ke meja pimpinan daerah atau direksi perusahaan."
+        }
+      ],
+      "url": "https://ciptadrasoft.com/onebox-PR"
+    },
+    {
+      "id": "ciptalife",
+      "name": "Ciptalife",
+      "fullName": "Ciptalife - Life Management & Employee Wellbeing Solution",
+      "category": "Healthcare & Kesejahteraan Karyawan",
+      "tagline": "Kelola Kehidupan Karyawan Lebih Sehat, Bahagia & Produktif",
+      "summary": "Platform manajemen kesehatan dan kesejahteraan karyawan terpadu dengan integrasi resmi SatuSehat Kemenkes dan BPJS Kesehatan.",
+      "description": "Ciptalife membantu perusahaan meningkatkan produktivitas dan loyalitas karyawan melalui program wellbeing terukur, akses layanan kesehatan digital, integrasi data rekam medis SatuSehat, pemantauan wearable device, serta pelaporan otomatis bagi tim HR.",
+      "subFeatures": [
+        {
+          "name": "Integrasi Resmi SatuSehat (Kemenkes)",
+          "description": "Bridging langsung ke ekosistem SatuSehat Kementerian Kesehatan Republik Indonesia untuk standarisasi rekam medis."
+        },
+        {
+          "name": "Integrasi BPJS Kesehatan",
+          "description": "Sinkronisasi kepesertaan dan klaim BPJS Kesehatan secara otomatis dan transparan bagi karyawan dan perusahaan."
+        },
+        {
+          "name": "Automated HR Reporting",
+          "description": "Dashboard analitik kesehatan karyawan, tren absensi sakit, dan utilisasi benefit kesehatan tanpa melanggar privasi personal."
+        },
+        {
+          "name": "Multi-User Access & Role",
+          "description": "Portal akses terpisah untuk Karyawan (mobile app), HR Admin, Manajemen Eksekutif, Provider Kesehatan, dan Keluarga Karyawan."
+        },
+        {
+          "name": "Integrasi Device & Wearables",
+          "description": "Koneksi ke smartwatch dan wearable fitness tracker untuk memantau target langkah, aktivitas fisik, dan tantangan wellbeing bersama."
+        },
+        {
+          "name": "Program Reward & Engagement",
+          "description": "Gamifikasi aktivitas sehat dengan poin reward yang dapat ditukarkan dengan voucer kesehatan dan merchandise."
+        }
+      ],
+      "url": "https://ciptadrasoft.com/ciptalife"
+    }
+  ],
+  "services": [
+    {
+      "id": "konsultasi-transformasi-digital",
+      "name": "Konsultasi Transformasi Digital",
+      "description": "Menyusun strategi transformasi digital, arsitektur IT enterprise, roadmap inovasi smart city, serta penyelarasan teknologi dengan tujuan bisnis jangka panjang."
+    },
+    {
+      "id": "pengembangan-perangkat-lunak-kustom",
+      "name": "Pengembangan Perangkat Lunak Kustom",
+      "description": "Membangun sistem perangkat lunak skalabel, aman, dan berperforma tinggi (enterprise web, mobile apps iOS/Android, dan modernisasi sistem warisan) oleh tim engineer berpengalaman sejak 1999."
+    },
+    {
+      "id": "integrasi-sistem-platform-api",
+      "name": "Integrasi Sistem & Platform API",
+      "description": "Menghubungkan ekosistem IT yang heterogen: bridging API perbankan/asuransi, integrasi WhatsApp Business API resmi, gateway pembayaran, dan konektor ERP."
+    },
+    {
+      "id": "implementasi-data-dan-ai",
+      "name": "Implementasi Data & AI",
+      "description": "Membangun platform data warehouse terpusat, analitik prediktif, pemrosesan bahasa alami (NLP), dan asisten Generative AI untuk otomatisasi operasional bisnis."
+    }
+  ],
+  "clients": {
+    "total": "200+ Enterprise & Government Clients",
+    "exportMarkets": [
+      "Hong Kong",
+      "Thailand",
+      "Cina",
+      "Spanyol"
+    ],
+    "categories": [
+      {
+        "category": "Banking & Insurance",
+        "list": [
+          "Bank Indonesia (BI)",
+          "Otoritas Jasa Keuangan (OJK)",
+          "Allobank",
+          "Bank Danamon",
+          "Citi Bank",
+          "AXA Mandiri",
+          "AXA Financial",
+          "AXA Life",
+          "Ciputra Life",
+          "Sompo Insurance",
+          "Asuransi Cigna",
+          "PT Tugu Indonesia",
+          "Asuransi Bintang",
+          "BNI Life"
+        ]
+      },
+      {
+        "category": "Telecommunications",
+        "list": [
+          "Telkom Indonesia",
+          "Telkomsel",
+          "XL Axiata",
+          "IndosatM2",
+          "MyRepublic"
+        ]
+      },
+      {
+        "category": "Government & State-Owned Enterprises (BUMN)",
+        "list": [
+          "Kementerian Keuangan RI (Kemenkeu)",
+          "Kementerian Pertahanan RI (Kemhan)",
+          "Kementerian Komunikasi dan Informatika (Kominfo)",
+          "Kementerian Energi dan Sumber Daya Mineral (ESDM)",
+          "DispenAU (TNI Angkatan Udara)",
+          "LRT Kota Jakarta",
+          "Krakatau Steel",
+          "Pemprov Kota Bandung",
+          "Pemprov Kota Bogor",
+          "Pemprov Sumatera Utara"
+        ]
+      },
+      {
+        "category": "Private Sector & Technology",
+        "list": [
+          "Gojek",
+          "Berbagai Korporasi Multinasional & Nasional"
+        ]
+      }
+    ]
+  },
+  "industries": [
+    {
+      "id": "banking-finance",
+      "name": "Perbankan & Fintech",
+      "tagline": "Layanan nasabah berkecepatan tinggi dan kepatuhan standar OJK serta Bank Indonesia.",
+      "challengesAddressed": "Tingginya volume pesan interaksi nasabah di WhatsApp, kebutuhan antrean tertib di kantor cabang, serta pelaporan audit OJK.",
+      "popularSolutions": [
+        "Onebox CRM Contact Center",
+        "Onebox Sistem Antrian",
+        "WhatsApp Business API",
+        "Data Warehouse"
+      ]
+    },
+    {
+      "id": "insurance",
+      "name": "Asuransi & Penjaminan",
+      "tagline": "Digitalisasi operasional polis, telemarketing, dan klaim asuransi modern.",
+      "challengesAddressed": "Persistensi premi, alur klaim manual, manajemen komisi agen berjenjang, dan automasi telemarketing asuransi.",
+      "popularSolutions": [
+        "Onebox Insurance Core",
+        "Tools Komisi Agen",
+        "Telemarketing & Telecollection Premi",
+        "Data Warehouse Asuransi"
+      ]
+    },
+    {
+      "id": "government",
+      "name": "Pemerintahan & E-Government",
+      "tagline": "Smart City terpadu, Satu Data Indonesia, dan sistem pengaduan warga responsif.",
+      "challengesAddressed": "Silo data antar OPD, aduan publik yang tercecer di berbagai medsos, serta implementasi regulasi SPBE.",
+      "popularSolutions": [
+        "Onebox Smartcity",
+        "Layanan Pengaduan Publik Omnichannel",
+        "Pusat Data Kota",
+        "Onebox PR Monitoring"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "name": "Kesehatan & Kesejahteraan",
+      "tagline": "Digitalisasi rumah sakit, integrasi SatuSehat Kemenkes, dan employee wellbeing.",
+      "challengesAddressed": "Penumpukan antrean loket klinik/RS, kepatuhan integrasi SatuSehat, dan pemantauan kesehatan pegawai.",
+      "popularSolutions": [
+        "Ciptalife",
+        "Onebox Sistem Antrian Rumah Sakit",
+        "Integrasi SatuSehat Kemenkes",
+        "Integrasi BPJS"
+      ]
+    },
+    {
+      "id": "telecommunications",
+      "name": "Telekomunikasi",
+      "tagline": "Otomasi customer service high-throughput untuk jutaan pelanggan.",
+      "challengesAddressed": "Lonjakan percakapan pelanggan 24/7, kecepatan respons keluhan jaringan, dan tiket terintegrasi.",
+      "popularSolutions": [
+        "Onebox High-Throughput Contact Center",
+        "AI Chatbot 24/7",
+        "WhatsApp Broadcast Masif",
+        "Customer 360"
+      ]
+    },
+    {
+      "id": "public-relations",
+      "name": "Kehumasan & Media Organisasi",
+      "tagline": "Monitoring reputasi instansi, analisis sentimen publik, dan rilis berita terkontrol.",
+      "challengesAddressed": "Penyebaran isu hoaks yang cepat, informasi internal terfragmentasi, dan lambatnya respon pimpinan.",
+      "popularSolutions": [
+        "Onebox PR",
+        "Monitoring Media Sosial & Online",
+        "Analisis Sentimen AI",
+        "Dashboard Pimpinan"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Apa itu CiptadraSoft (PT Ciptadra Softindo)?",
+      "answer": "PT Ciptadra Softindo (CiptadraSoft) berdiri sejak tahun 1999 (25+ tahun pengalaman) adalah Creative Engineering Company dan konsultan teknologi terkemuka di Indonesia. Didukung oleh 80+ software engineers, kami melayani lebih dari 200 klien aktif di sektor perbankan, asuransi, pemerintah, dan telekomunikasi, serta telah mengekspor produk perangkat lunak ke Hong Kong, Thailand, Cina, dan Spanyol."
+    },
+    {
+      "question": "Apa saja 7 produk unggulan CiptadraSoft?",
+      "answer": "7 platform unggulan CiptadraSoft yang dapat diakses di https://ciptadrasoft.com adalah: (1) Onebox CRM (Omnichannel contact center, chatbot, ticketing, antrian, telemarketing, telecollection); (2) Onebox Smartcity (E-Government, pusat data kota, super apps, layanan aduan warga); (3) Onebox Insurance (Core system asuransi jiwa & kesehatan, telemarketing, komisi agen); (4) Onebox Data Warehouse (BI terpadu kesehatan, pendidikan, PAD, perizinan, sales, CS); (5) Onebox Digital (Pembuatan website, company profile, medsos, video profil); (6) Onebox PR (Kendali rilis berita, analisis sentimen AI, pemetaan tokoh & wilayah); (7) Ciptalife (Life management, kesejahteraan karyawan, integrasi SatuSehat & BPJS)."
+    },
+    {
+      "question": "Siapa saja klien yang telah mempercayai CiptadraSoft?",
+      "answer": "CiptadraSoft telah dipercaya lebih dari 200 klien besar, termasuk institusi keuangan dan regulator: Bank Indonesia (BI), OJK, Allobank, Bank Danamon, Citibank, AXA Mandiri, AXA Financial, Ciputra Life, Sompo Insurance, BNI Life, Tugu Insurance; operator telekomunikasi: Telkom Indonesia, Telkomsel, XL Axiata, IndosatM2, MyRepublic; kementerian & BUMN: Kementerian Keuangan, Kementerian Pertahanan, Kominfo, Kementerian ESDM, TNI AU, LRT Jakarta, Krakatau Steel; pemerintah daerah: Pemprov Bandung, Pemprov Bogor, Pemprov Sumut; serta perusahaan teknologi seperti Gojek."
+    },
+    {
+      "question": "Apakah CiptadraSoft memiliki produk untuk E-Government / Smart City?",
+      "answer": "Ya, Onebox Smartcity adalah platform E-Government unggulan CiptadraSoft yang menyediakan solusi terpadu untuk Smart City dan SPBE: Pusat Data Kota (Satu Data), Super Apps Warga, Layanan Pengaduan Publik Omnichannel (terhubung WhatsApp dan medsos ke dinas teknis), AI Government, dan Smart Portal Informasi."
+    },
+    {
+      "question": "Apa itu Ciptalife dan apakah terhubung dengan SatuSehat?",
+      "answer": "Ciptalife adalah platform Life Management & Employee Wellbeing dari CiptadraSoft. Ciptalife telah terintegrasi resmi dengan SatuSehat Kementerian Kesehatan RI dan BPJS Kesehatan, memungkinkan perusahaan mengelola program kesehatan dan kesejahteraan karyawan secara terintegrasi, aman, dan otomatis."
+    },
+    {
+      "question": "Bagaimana cara menghubungi CiptadraSoft?",
+      "answer": "Anda dapat menghubungi kantor pusat CiptadraSoft di Ciptadra Innovation Tower, Jl. Margonda Raya, JL STM Mandiri No. 1A, Depok 16423, Jawa Barat. Telepon: +62 21 7271051, WhatsApp Marketing: 081383249247, atau email: marketing@ciptadrasoft.com. Kunjungi juga website resmi kami di https://ciptadrasoft.com."
+    }
+  ],
   "solutions": [
     {
       "id": "omnichannel-customer-experience",
       "name": "Onebox Omnichannel Customer Experience",
-      "shortDescription": "Solusi terintegrasi untuk contact center, customer service, sales, dan ticketing dari WhatsApp hingga medsos.",
-      "description": "Platform unified communications unggulan CiptadraSoft yang menyatukan seluruh saluran interaksi pelanggan (WhatsApp Business API, Webchat, Instagram DM, Facebook, X, Email, Voice/PBX, Play Store) ke dalam satu dashboard terpusat.",
+      "shortDescription": "Solusi terpadu contact center, tiket bantuan, chatbot AI, dan sistem antrian terintegrasi WhatsApp.",
+      "description": "Platform unggulan CiptadraSoft yang menyatukan WhatsApp Business API resmi, Instagram, Facebook, X, Email, Telepon, dan Webchat ke dalam satu layar kerja terpadu untuk merespons pelanggan dengan cepat dan terukur.",
       "keyBenefits": [
-        "Single dashboard untuk seluruh interaksi customer tanpa perlu gonta-ganti aplikasi",
-        "Sistem tiket dan eskalasi keluhan pelanggan berbasis SLA",
-        "Otomasi respon melalui Chatbot cerdas dan broadcast messaging",
-        "Distribusi pesan otomatis (Chat Assignment) ke agen yang relevan",
-        "Dashboard analitik performa agen dan CSAT real-time"
+        "Satu dasbor terpadu untuk seluruh interaksi customer tanpa berganti aplikasi",
+        "Sistem tiket dan eskalasi keluhan pelanggan dengan jaminan SLA ketat",
+        "Automasi respon 24/7 melalui AI Chatbot dan broadcast messaging resmi",
+        "Sistem antrian loket digital terhubung langsung ke notifikasi WhatsApp pengguna",
+        "Dashboard analitik performa agen, skor CSAT, dan sentimen percakapan real-time"
       ],
-      "capabilitiesIncluded": ["Onebox Contact Center", "WhatsApp Business API", "Ticketing System", "Agent Analytics"],
-      "targetAudience": "Perusahaan ritel, perbankan, telekomunikasi, layanan publik, dan e-commerce"
+      "capabilitiesIncluded": [
+        "Onebox CRM",
+        "WhatsApp Business API Resmi",
+        "Ticket Management",
+        "Sistem Antrian Cerdas",
+        "CSAT Analytics"
+      ],
+      "targetAudience": "Perusahaan ritel, perbankan, telekomunikasi, rumah sakit, dan dinas pelayanan publik"
     },
     {
-      "id": "queue-management-system",
-      "name": "Onebox Sistem Antrian Cerdas (Queue Management)",
-      "shortDescription": "Sistem antrian digital berbasis cloud terintegrasi dengan contact center dan loket fisik.",
-      "description": "Sistem manajemen antrian cerdas yang mengintegrasikan pengambilan tiket antrian (kios, QR, online booking) dengan display monitor loket, notifikasi WhatsApp/SMS, serta pelaporan SLA waktu tunggu.",
+      "id": "smartcity-egovernment",
+      "name": "Onebox Smartcity & Solusi SPBE Pemerintah",
+      "shortDescription": "Transformasi digital kota cerdas, integrasi Satu Data OPD, Super Apps, dan aduan publik omnichannel.",
+      "description": "Solusi komprehensif bagi Pemerintah Daerah (Pemprov, Pemkot, Pemkab) untuk membangun ekosistem Smart City dan kepatuhan SPBE, mulai dari integrasi Pusat Data Kota hingga Super Apps warga.",
       "keyBenefits": [
-        "Mengurangi waktu tunggu fisik dan penumpukan antrean di lokasi",
-        "Terintegrasi langsung dengan Onebox Contact Center untuk follow-up pelanggan",
-        "Notifikasi nomor antrian langsung ke WhatsApp pengguna",
-        "Laporan detail waktu pelayanan per loket dan evaluasi produktivitas staf"
+        "Integrasi Satu Data lintas Organisasi Perangkat Daerah (OPD)",
+        "Layanan Pengaduan Publik Omnichannel yang menyalurkan aspirasi warga langsung ke dinas terkait",
+        "Super Apps Kota untuk kemudahan warga mengakses puluhan layanan dalam satu aplikasi",
+        "AI Government untuk membaca tren aspirasi masyarakat dan membantu perumusan kebijakan publik",
+        "Smart Portal informasi resmi kota yang transparan dan informatif"
       ],
-      "capabilitiesIncluded": ["Cloud Queue Engine", "Digital Signage Display", "WhatsApp Notification", "Loket Dashboard"],
-      "targetAudience": "Rumah Sakit, Puskesmas, Dinas Layanan Publik, Bank, dan Kantor Pelayanan Terpadu"
+      "capabilitiesIncluded": [
+        "Pusat Data Kota",
+        "Super Apps Warga",
+        "Layanan Pengaduan Omnichannel",
+        "AI Government",
+        "Smart Portal"
+      ],
+      "targetAudience": "Pemerintah Provinsi, Pemerintah Kota, Pemerintah Kabupaten, Kementerian & Lembaga"
     },
     {
-      "id": "orbeets-insurance-core",
-      "name": "Orbeets - Insurance Core Digitalization",
-      "shortDescription": "Core business enterprise technology solution khusus untuk industri asuransi jiwa, umum, dan kesehatan.",
-      "description": "Unit spesialis dari Ciptadra Softindo yang menghadirkan platform digitalisasi komprehensif bagi perusahaan asuransi, mulai dari polis, klaim digital, underwriting, hingga integrasi reasuransi.",
+      "id": "insurance-fintech",
+      "name": "Onebox Insurance & Financial Core Technology",
+      "shortDescription": "Core system asuransi jiwa & kesehatan, telemarketing, kalkulator komisi agen, dan telecollection.",
+      "description": "Solusi teknologi finansial komprehensif yang dirancang untuk mendukung siklus hidup asuransi dari hulu ke hilir dengan kepatuhan penuh regulasi OJK.",
       "keyBenefits": [
-        "Digitalisasi siklus penerbitan polis dan pengajuan klaim instan",
-        "Kepatuhan regulasi Otoritas Jasa Keuangan (OJK)",
-        "Integrasi mulus dengan rumah sakit rekanan dan penyedia pembayaran",
-        "Arsitektur modular cloud-ready untuk asuransi umum, jiwa, dan kesehatan"
+        "Core policy lifecycle management untuk asuransi jiwa, kesehatan, dan umum",
+        "Telemarketing asuransi dengan manajemen prospek dan smart dialer otomatis",
+        "Perhitungan otomatis komisi agen berjenjang (multi-tier) dan pelaporan insentif",
+        "Telecollection premi terotomasi via WhatsApp dan telepon guna menjaga persistensi polis",
+        "Data warehouse aktuaria dan analitik rasio klaim real-time"
       ],
-      "capabilitiesIncluded": ["Policy Lifecycle", "Digital Claims Portal", "OJK Regulatory Compliance", "Broker & Agent Portal"],
-      "targetAudience": "Perusahaan Asuransi Umum, Asuransi Jiwa, TPA (Third Party Administrator), dan Insurtech"
+      "capabilitiesIncluded": [
+        "Core Insurance System",
+        "Telemarketing Engine",
+        "Tools Komisi Agen",
+        "Telecollection Premi",
+        "Kepatuhan OJK"
+      ],
+      "targetAudience": "Perusahaan asuransi jiwa, asuransi kesehatan, asuransi umum, broker, dan fintech penjaminan"
     },
     {
-      "id": "business-process-automation",
-      "name": "Business Process Automation & BPM",
-      "shortDescription": "Otomasi alur kerja approval, administrasi formulir digital, dan integrasi antar divisi.",
-      "description": "Digitalisasi alur kerja persetujuan multi-tingkat, integrasi formulir online, rekonsiliasi data keuangan, dan otomasi tugas rutin untuk memangkas birokrasi internal perusahaan.",
+      "id": "datawarehouse-bi",
+      "name": "Onebox Data Warehouse & Business Intelligence",
+      "shortDescription": "Integrasi data multi-sumber menjadi dasbor visual KPI eksekutif untuk keputusan strategis instan.",
+      "description": "Platform data warehouse modern yang mengeliminasi silo data antar departemen, mengotomatiskan ETL data dari berbagai database, dan menyajikannya dalam grafik KPI yang mudah dipahami pimpinan.",
       "keyBenefits": [
-        "Mempercepat siklus proses operasional hingga 70%",
-        "Tata kelola workflow transparan dan auditable",
-        "Pengurangan penggunaan kertas dan input manual yang rentan kesalahan",
-        "Konektor API ke sistem ERP (SAP, Oracle) dan database korporat"
+        "Penyatuan data heterogen dari berbagai sistem transaksional ke satu data lake/warehouse",
+        "Dashboard siap pakai untuk sektor pemerintahan (Kesehatan, Pendidikan, PAD, Perizinan, dll.)",
+        "Dashboard operasional bisnis (Customer Service CSAT, Marketing, Sales, Keuangan)",
+        "Analisis tren prediktif berbasis machine learning",
+        "Kontrol akses data berjenjang (RBAC) dengan standar keamanan informasi enterprise"
       ],
-      "capabilitiesIncluded": ["BPM Engine", "Approval Matrix", "Document Automation", "Audit Trail"],
-      "targetAudience": "Departemen operasional, finance & accounting, HR, dan legal"
+      "capabilitiesIncluded": [
+        "ETL Engine",
+        "Data Warehouse Terpadu",
+        "Dashboard KPI Eksekutif",
+        "Analitik Prediktif",
+        "Role-Based Access"
+      ],
+      "targetAudience": "Kepala daerah, direksi BUMN/swasta, kepala dinas, manajer operasional, dan analis bisnis"
     },
     {
-      "id": "enterprise-software-development",
-      "name": "Custom Enterprise Software & IoT",
-      "shortDescription": "Pengembangan perangkat lunak kustom, portal web, mobile apps, dan integrasi IoT skala besar.",
-      "description": "Layanan rekayasa perangkat lunak tailor-made oleh puluhan insinyur berpengalaman untuk membangun arsitektur digital mission-critical, enterprise web portal, mobile apps, dan solusi sensor/IoT.",
+      "id": "pr-media-intelligence",
+      "name": "Onebox PR & Media Intelligence",
+      "shortDescription": "Pusat komando humas: monitoring media sosial/online, verifikasi isu, analisis sentimen AI, dan proteksi reputasi.",
+      "description": "Platform manajemen informasi kehumasan yang membantu instansi mengontrol narasi berita, memantau sentimen publik secara real-time, dan mengoordinasikan rilis pers lintas saluran.",
       "keyBenefits": [
-        "Didesain khusus mengikuti workflow dan arsitektur unik klien",
-        "Didukung tim engineer berpengalaman sejak 1999",
-        "Pilihan arsitektur modern microservices atau hybrid",
-        "Dukungan SLA pemeliharaan teknis berkelanjutan"
+        "Penerimaan informasi terpusat dari media massa, media sosial, OPD, dan publik",
+        "Deteksi isu dini dan analisis sentimen otomatis (positif, netral, negatif) dengan AI",
+        "Pemetaan tokoh berpengaruh dan persebaran wilayah isu",
+        "Executive dashboard monitoring reputasi langsung untuk pimpinan",
+        "Distribusi rilis berita yang cepat, terverifikasi, dan terkoordinasi"
       ],
-      "capabilitiesIncluded": ["Custom Web Development", "Mobile App Development", "IoT System Engineering", "API Integration"],
-      "targetAudience": "Perusahaan multinasional, manufaktur, logistik, dan holding"
+      "capabilitiesIncluded": [
+        "Media Monitoring",
+        "Sentimen AI",
+        "Pemetaan Tokoh & Wilayah",
+        "Dashboard Pimpinan",
+        "Distribusi Berita"
+      ],
+      "targetAudience": "Divisi Humas Pemerintah, Corporate Communications, Public Relations Agency, dan Lembaga Publik"
     },
     {
-      "id": "ai-solutions",
-      "name": "AI Solutions & Conversational Intelligence",
-      "shortDescription": "Generative AI assistants, NLP chatbots, dan smart automation untuk layanan bisnis.",
-      "description": "Pemanfaatan kecerdasan buatan generatif (Generative AI) dan NLP untuk automasi layanan mandiri pelanggan, asisten virtual agen, ekstraksi dokumen cerdas, serta integrasi knowledge base enterprise.",
+      "id": "digital-wellbeing",
+      "name": "Onebox Digital & Ciptalife Employee Wellbeing",
+      "shortDescription": "Penguatan digital brand korporat dan platform kesejahteraan karyawan terintegrasi SatuSehat Kemenkes.",
+      "description": "Kombinasi layanan kreatif digital (website, company profile, medsos, video sinematik) dan platform kesejahteraan karyawan Ciptalife yang terhubung resmi ke ekosistem SatuSehat dan BPJS Kesehatan.",
       "keyBenefits": [
-        "Respon otomatis 24/7 dengan bahasa alami (Bahasa Indonesia & English)",
-        "Reduksi beban agen untuk pertanyaan umum (tier-1 deflection)",
-        "Integrasi langsung dengan Onebox Omnichannel CRM",
-        "Keamanan data privat tanpa kebocoran data sensitif"
+        "Website dan portal korporat modern dengan estetika tinggi dan keamanan terjamin",
+        "Produksi company profile dan video profil berkualitas sinematik",
+        "Platform wellbeing Ciptalife terhubung langsung ke SatuSehat Kemenkes & BPJS",
+        "Pelacakan aktivitas fisik via smartwatch / wearables dan program reward karyawan",
+        "Meningkatkan employer branding dan retensi talenta terbaik di organisasi"
       ],
-      "capabilitiesIncluded": ["Conversational Generative AI", "Smart Knowledge Retrieval", "Lead Qualification", "Intent Routing"],
-      "targetAudience": "Customer care division, marketing, IT support, dan internal knowledge management"
+      "capabilitiesIncluded": [
+        "Web Development",
+        "Social Media Management",
+        "Ciptalife Platform",
+        "Integrasi SatuSehat Kemenkes",
+        "Integrasi BPJS"
+      ],
+      "targetAudience": "Manajemen HR korporat, tim branding & marketing, rumah sakit, dan institusi modern"
     }
   ],
   "products": [
     {
       "id": "onebox-crm",
-      "name": "Onebox Omnichannel CRM",
-      "category": "Customer Relationship Management & Contact Center",
+      "name": "Onebox CRM",
+      "category": "Customer Service, Sales & Omnichannel",
       "features": [
-        "Unified inbox: WhatsApp Business API, Instagram, Facebook, X, Email, Webchat, Voice",
-        "Shared Inbox & Ticketing management dengan penomoran keluhan unik",
-        "Chatbot cerdas & scheduled broadcast messaging",
-        "Automatic Chat Assignment & Routing ke agen berdasarkan keahlian atau round-robin",
-        "Customer 360 profile, riwayat percakapan, dan tag segmentasi pelanggan",
-        "Supervisor live monitoring dashboard dan CSAT/NPS survey otomatis"
+        "Contact Center Omnichannel: Menyatukan WhatsApp Business API, Instagram DM, Facebook Messenger, X/Twitter, Email, Telepon/Voice PBX, dan Webchat ke dalam satu layar agen terpadu.",
+        "Ticket Management & SLA: Sistem tiket otomatis dengan auto-numbering, auto-assignment berdasarkan keahlian agen, prioritas SLA, dan eskalasi bertingkat.",
+        "AI Chatbot 24/7: Asisten virtual pintar yang melayani interaksi pelanggan sepanjang waktu, menjawab FAQ otomatis, kualifikasi lead, dan serah terima mulus ke agen manusia.",
+        "Customer Relationship 360: Profil pelanggan terpadu, riwayat kontak lengkap, segmentasi pelanggan, serta riwayat pembelian/interaksi lintas kanal.",
+        "Sistem Antrian Terintegrasi: Integrasi mesin antrean dengan contact center dan notifikasi WhatsApp langsung ke ponsel nasabah atau pasien.",
+        "Outbound & Sapa Salam (Reminder): Pengingat otomatis jadwal temu, salam ulang tahun, dan konfirmasi reservasi melalui WhatsApp dan SMS resmi.",
+        "Prospect & Sales Management: Manajemen alur prospek dari leads masuk, pipeline penawaran, hingga closing dan konversi penjualan.",
+        "Telemarketing: Sistem dialer pintar (preview, progressive, predictive dialer) dengan manajemen database prospek dan rekaman panggilan.",
+        "Outbound & Broadcast: Kirim pesan siaran massal resmi WhatsApp Business API dengan template terverifikasi untuk promo, pengumuman, dan notifikasi penting.",
+        "Telecollection: Otomatisasi pengingat tagihan dan penagihan premi/kredit dengan jadwal reminder multi-kanal dan status pembayaran real-time.",
+        "Customer Feedback & CSAT/NPS: Survei kepuasan pelanggan otomatis setelah percakapan selesai, memberikan laporan skor CSAT dan sentimen layanan secara real-time.",
+        "Media Monitoring & BPO: Pemantauan percakapan publik di media sosial dan dukungan layanan Business Process Outsourcing terlatih."
       ],
       "deployment": "Cloud SaaS, Private Cloud, atau On-Premise",
-      "summary": "Platform unggulan PT Ciptadra Softindo yang menyatukan semua saluran komunikasi pelanggan ke dalam satu dasbor terpusat untuk efisiensi CS dan sales."
+      "summary": "Platform unggulan Onebox CRM menyatukan seluruh kanal komunikasi pelanggan (WhatsApp Business API, Email, Media Sosial, Voice, Webchat, Play Store) ke dalam satu sistem terintegrasi dengan otomatisasi tiket, chatbot AI, dan analitik CSAT."
     },
     {
-      "id": "onebox-antrian",
-      "name": "Onebox Sistem Antrian",
-      "category": "Queue Management System",
+      "id": "onebox-smartcity",
+      "name": "Onebox Smartcity (E-Government)",
+      "category": "E-Government & Smart City",
       "features": [
-        "Mesin antrian berbasis cloud dengan integrasi tiket digital dan tiket cetak",
-        "Panggilan suara otomatis (Text-to-Speech) & display monitor loket",
-        "Notifikasi status nomor antrian langsung ke WhatsApp pengguna",
-        "Integrasi langsung ke Onebox Contact Center untuk follow-up layanan",
-        "Pelaporan real-time waktu tunggu dan produktivitas petugas loket"
+        "Core System Smartcity & SPBE: Fondasi tata kelola pemerintahan digital sesuai kerangka kerja Sistem Pemerintahan Berbasis Elektronik (SPBE) nasional.",
+        "Pusat Data Kota (City Data Center): Integrasi data lintas OPD (Organisasi Perangkat Daerah) dalam satu arsitektur terpadu untuk Satu Data Indonesia.",
+        "Super Apps Kota (Citizen App): Satu aplikasi mobile untuk seluruh kebutuhan warga, mulai dari layanan kependudukan, perizinan, kesehatan, hingga pembayaran pajak daerah.",
+        "Omnichannel Layanan Pengaduan Publik: Penerimaan aspirasi dan aduan warga dari WhatsApp, media sosial, portal web, dan aplikasi; otomatis didistribusikan ke dinas penanggung jawab disertai SLA tindak lanjut.",
+        "AI Government & Analitik Kota: Pemanfaatan Artificial Intelligence untuk analisis sentimen warga, deteksi masalah perkotaan, dan proyeksi kebutuhan anggaran publik.",
+        "Smart Portal Informasi & Wisata: Portal web resmi kota yang menyajikan berita transparansi, agenda kegiatan, layanan publik, dan peta potensi daerah.",
+        "Roadmap Inovasi Teruji: Telah diimplementasikan dan dipercaya di Pemprov Jawa Barat, Pemprov Kota Bandung, Pemprov Kota Bogor, Pemprov Sumatera Utara, Kemenkeu, Kominfo, dan Kemhan."
       ],
-      "deployment": "Cloud Hybrid atau Local On-Premise Appliance",
-      "summary": "Solusi manajemen antrian modern untuk rumah sakit, puskesmas, perbankan, dan instansi layanan publik guna mengurai kepadatan ruang tunggu."
+      "deployment": "Cloud SaaS, Private Cloud, atau On-Premise",
+      "summary": "Platform E-Government terpadu untuk Pemerintah Provinsi, Kota, dan Kabupaten dalam mewujudkan Smart City, integrasi Satu Data, SPBE, serta layanan publik omnichannel responsif."
     },
     {
-      "id": "orbeets-platform",
-      "name": "Orbeets Enterprise Insurance Core",
-      "category": "Insurance Core System",
+      "id": "onebox-insurance",
+      "name": "Onebox Insurance",
+      "category": "Perbankan & Asuransi (Insurtech)",
       "features": [
-        "End-to-end policy lifecycle management (penerbitan, renewal, endorsement)",
-        "Modul digital klaim instan dan integrasi dokumen medis",
-        "Automasi proses underwriting dan kalkulasi premi",
-        "Portal khusus untuk agen, broker, dan nasabah asuransi",
-        "Sesuai regulasi Otoritas Jasa Keuangan (OJK)"
+        "Core System Asuransi: Manajemen end-to-end polis asuransi jiwa dan kesehatan: penerbitan polis, renewal, klaim, hingga underwriting.",
+        "Telemarketing Asuransi: Sistem outbound call center khusus penjualan produk asuransi dengan manajemen leads tersegmentasi dan kepatuhan regulasi.",
+        "Prospek & Sales Management: Pelacakan pipeline penjualan asuransi dari lead awal hingga konversi polis aktif.",
+        "Contact Center & Ticket Klaim: Layanan pelanggan pemegang polis omnichannel untuk bantuan darurat, cek status klaim, dan informasi manfaat.",
+        "Tools Komisi Agen: Perhitungan otomatis komisi, override agen, bonus performa berjenjang (multi-tier), dan pelaporan pajak agen.",
+        "Outbound Telecollection Premi: Pengingat otomatis jatuh tempo premi melalui WhatsApp resmi dan panggilan otomatis guna menjaga persistensi polis nasabah.",
+        "Data Warehouse & Analitik Aktuaria: Penyimpanan data polis dan klaim terpadu untuk analisis risiko aktuaria, rasio klaim, dan dashboard pimpinan."
       ],
-      "deployment": "Private Cloud atau Enterprise Datacenter",
-      "summary": "Core tech solution dari unit bisnis Ciptadra Softindo yang dirancang khusus untuk digitalisasi operasional industri asuransi umum, jiwa, dan kesehatan."
+      "deployment": "Cloud SaaS, Private Cloud, atau On-Premise",
+      "summary": "Solusi core system dan operasional terlengkap untuk industri asuransi jiwa, umum, dan kesehatan dengan kepatuhan penuh regulasi OJK."
     },
     {
-      "id": "ciptadra-bpm",
-      "name": "Ciptadra Flow BPM",
-      "category": "Business Process Management",
+      "id": "onebox-datawarehouse",
+      "name": "Onebox Data Warehouse & BI",
+      "category": "Big Data & Executive Analytics",
       "features": [
-        "Visual workflow builder untuk alur persetujuan bertingkat",
-        "Formulir elektronik dengan validasi data otomatis",
-        "Pengingat SLA persetujuan via email dan WhatsApp",
-        "Integrasi ke sistem ERP (SAP, Microsoft Dynamics, Oracle)",
-        "Audit trail lengkap untuk transparansi operasional"
+        "Core System Data Warehouse: Proses ETL (Extract, Transform, Load) otomatis yang menghubungkan berbagai database heterogen ke dalam satu data lake/warehouse.",
+        "Dashboard Sektor Pemerintahan: Visualisasi KPI terpadu untuk Kesehatan, Pendidikan, PAD (Pendapatan Asli Daerah), Kependudukan, Perizinan, UMKM, dan Urusan Sosial.",
+        "Dashboard Korporasi & Bisnis: Pemantauan KPI real-time untuk Customer Service (CSAT, FCR), Efektivitas Marketing, Kinerja Sales, dan Pertumbuhan Finansial.",
+        "Analisis Pertumbuhan & Tren: Laporan prediktif dan proyeksi masa depan berbasis data historis menggunakan machine learning.",
+        "Akses Berjenjang & Aman: Hak akses berbasis peran (RBAC) untuk pimpinan eksekutif, kepala dinas, dan tim operasional dengan enkripsi ketat."
       ],
-      "deployment": "On-Premise atau Cloud",
-      "summary": "Engine alur kerja korporat untuk mengotomatiskan proses approval, procurement, dan administrasi antar divisi."
+      "deployment": "Cloud SaaS, Private Cloud, atau On-Premise",
+      "summary": "Platform data warehouse terintegrasi dan dasbor Business Intelligence real-time untuk pemerintah daerah dan korporasi multi-divisi."
     },
     {
-      "id": "ciptadra-ai-agent",
-      "name": "Ciptadra AI Virtual Assistant",
-      "category": "Artificial Intelligence & Chatbot",
+      "id": "onebox-digital",
+      "name": "Onebox Digital",
+      "category": "Digital Branding & Web/Mobile Development",
       "features": [
-        "Generative conversational AI berbasis domain knowledge enterprise",
-        "Pencarian informasi kontekstual dari dokumen lokal dan data eksternal",
-        "Deteksi otomatis lead dan kebutuhan demo produk",
-        "Eskalasi mulus ke agen manusia di Onebox",
-        "Dukungan dwibahasa: Bahasa Indonesia & English"
+        "Pembuatan Website Modern: Desain dan pengembangan website korporat, portal pemerintah, atau web app responsif dengan standar keamanan tinggi dan SEO-friendly.",
+        "Pembuatan Company Profile: Penyusunan booklet profil perusahaan digital dan cetak yang memperkuat kredibilitas dan memikat investor/klien.",
+        "Pengelolaan Media Sosial (SMM): Perencanaan konten, copywriting, desain grafis, hingga publikasi terjadwal di Instagram, LinkedIn, YouTube, dan TikTok.",
+        "Pembuatan Video Profil & Produk: Produksi video sinematik berkualitas tinggi untuk profil organisasi, demo produk interaktif, dan materi promosi perusahaan."
       ],
-      "deployment": "Cloud API atau Subnet Privat Perusahaan",
-      "summary": "Asisten virtual berbasis Generative AI untuk melayani tanya-jawab produk, pemecahan masalah bisnis, dan konsultasi kebutuhan digitalisasi."
+      "deployment": "Cloud SaaS, Private Cloud, atau On-Premise",
+      "summary": "Layanan agensi digital terpadu untuk membangun citra profesional korporat dan instansi melalui website interaktif, company profile, medsos, dan video produk."
     },
     {
-      "id": "ciptadra-iot-custom",
-      "name": "Ciptadra IoT & Custom Development",
-      "category": "Engineering Services",
+      "id": "onebox-pr",
+      "name": "Onebox PR (Public Relation)",
+      "category": "Humas, Media Monitoring & Sentiment Analysis",
       "features": [
-        "Pengembangan web dan aplikasi mobile kustom skala enterprise",
-        "Integrasi sensor perangkat IoT dan telemetri jarak jauh",
-        "Gateway integrasi API dan konversi protokol lama (SOAP, ISO 8583)",
-        "Dedicated engineering squad dengan arsitek senior Ciptadra"
+        "Penerimaan Informasi Terpusat: Menampung informasi dari media online, media sosial, OPD/internal dinas, masyarakat, dan partner ke dalam satu pintu.",
+        "Validasi & Verifikasi Isu: Penyaringan berita faktual dan penangkalan misinformasi atau hoaks sebelum menyebar luas.",
+        "Analisis Sentimen Otomatis (AI): Mesin NLP AI yang mendeteksi sentimen publik (positif, netral, negatif) terhadap kebijakan, rilis pers, atau brand.",
+        "Pemetaan Tokoh & Wilayah: Analisis persebaran isu berdasarkan wilayah geografis dan identifikasi influencer / figur kunci yang bersuara.",
+        "Distribusi Berita Cepat & Terkontrol: Sistem penerbitan rilis pers dan distribusi materi ke portal website, rekanan media massa, dan kanal pimpinan.",
+        "Executive Dashboard Pimpinan: Laporan berkala dan real-time monitoring reputasi langsung ke meja pimpinan daerah atau direksi perusahaan."
       ],
-      "deployment": "Tailor-made / Multi-Cloud",
-      "summary": "Layanan rekayasa kustom dan IoT development oleh tim ahli PT Ciptadra Softindo sejak 1999."
-    }
-  ],
-  "industries": [
-    {
-      "id": "banking-finance",
-      "name": "Perbankan & Fintech",
-      "tagline": "Layanan nasabah berkecepatan tinggi dan kepatuhan OJK / Bank Indonesia.",
-      "challengesAddressed": "Tingginya volume pesan WhatsApp/chat nasabah, kebutuhan sistem antrian kantor cabang, integrasi core banking.",
-      "popularSolutions": ["Onebox Omnichannel CRM", "Onebox Sistem Antrian", "WhatsApp Business API", "Enterprise Integration"]
+      "deployment": "Cloud SaaS, Private Cloud, atau On-Premise",
+      "summary": "Sistem terintegrasi untuk humas pemerintah dan korporasi dalam mengelola penerimaan informasi, verifikasi berita, analisis sentimen AI, dan proteksi reputasi publik."
     },
     {
-      "id": "insurance",
-      "name": "Asuransi & Penjaminan",
-      "tagline": "Digitalisasi operasional polis dan klaim melalui platform Orbeets.",
-      "challengesAddressed": "Klaim manual yang lambat, koordinasi dengan rumah sakit rekanan, pembaruan polis, dan pelaporan audit.",
-      "popularSolutions": ["Orbeets Insurance Core", "Onebox Contact Center", "Portal Klaim Digital"]
-    },
-    {
-      "id": "healthcare",
-      "name": "Rumah Sakit & Layanan Kesehatan",
-      "tagline": "Sistem antrian pasien cerdas dan omnichannel customer care.",
-      "challengesAddressed": "Penumpukan antrean loket pendaftaran/farmasi, konfirmasi janji temu dokter, respon cepat darurat.",
-      "popularSolutions": ["Onebox Sistem Antrian Cerdas", "WhatsApp Notifikasi Antrean", "Onebox Helpdesk Pasien"]
-    },
-    {
-      "id": "retail",
-      "name": "Ritel & E-Commerce",
-      "tagline": "Customer care terpadu dari WhatsApp hingga marketplace dalam satu layar.",
-      "challengesAddressed": "Pesan pelanggan tercecer di banyak platform, keluhan lambat ditangani, koordinasi tim sales.",
-      "popularSolutions": ["Onebox Omnichannel Contact Center", "Ticketing System", "Broadcast Promo WhatsApp"]
-    },
-    {
-      "id": "government",
-      "name": "Pemerintahan & Layanan Publik",
-      "tagline": "Portal pengaduan warga terintegrasi dan sistem antrian pelayanan terpadu.",
-      "challengesAddressed": "Birokrasi manual, aduan warga lintas kanal media sosial, antrean loket dinas publik.",
-      "popularSolutions": ["Onebox Public Service Ticketing", "Onebox Sistem Antrian Loket", "Chatbot Informasi Publik"]
-    },
-    {
-      "id": "telecommunications",
-      "name": "Telekomunikasi",
-      "tagline": "Otomasi customer service berskala jutaan pelanggan.",
-      "challengesAddressed": "Lonjakan query pelanggan, otomatisasi penanganan tiket gangguan jaringan, omnichannel inbox.",
-      "popularSolutions": ["Onebox High-Throughput Contact Center", "AI Virtual Assistant", "Automated Ticketing"]
-    },
-    {
-      "id": "manufacturing",
-      "name": "Manufaktur & Rantai Pasok",
-      "tagline": "Digitalisasi alur persetujuan pengadaan dan integrasi IoT pabrik.",
-      "challengesAddressed": "Workflow approval manual yang lama, pencatatan data logistik, monitoring perangkat.",
-      "popularSolutions": ["Ciptadra Flow BPM", "IoT Engineering", "Custom Enterprise Software"]
-    }
-  ],
-  "services": [
-    {
-      "name": "Onebox Implementation & WhatsApp Official Setup",
-      "description": "Setup resmi WhatsApp Business API (Centang Hijau / BSP), konfigurasi omnichannel inbox, dan pelatihan agen contact center."
-    },
-    {
-      "name": "Custom Software Engineering & Web Development",
-      "description": "Pengembangan aplikasi web, mobile, dan sistem enterprise khusus dirancang oleh software engineers CiptadraSoft sejak 1999."
-    },
-    {
-      "name": "Sistem Antrian Loket & Integrasi Hardware Kios",
-      "description": "Penyediaan software dan integrasi hardware mesin antrian, kiosk touch screen, display monitor, dan printer tiket."
-    },
-    {
-      "name": "Digitalisasi Asuransi (Orbeets Implementation)",
-      "description": "Implementasi sistem inti asuransi, integrasi klaim digital, dan bridging ke sistem pihak ketiga."
-    },
-    {
-      "name": "Enterprise IT Consulting & Managed Support SLA",
-      "description": "Layanan pemeliharaan teknis berkelanjutan, monitoring server 24/7, dan konsultasi arsitektur perangkat lunak."
+      "id": "ciptalife",
+      "name": "Ciptalife",
+      "category": "Healthcare & Kesejahteraan Karyawan",
+      "features": [
+        "Integrasi Resmi SatuSehat (Kemenkes): Bridging langsung ke ekosistem SatuSehat Kementerian Kesehatan Republik Indonesia untuk standarisasi rekam medis.",
+        "Integrasi BPJS Kesehatan: Sinkronisasi kepesertaan dan klaim BPJS Kesehatan secara otomatis dan transparan bagi karyawan dan perusahaan.",
+        "Automated HR Reporting: Dashboard analitik kesehatan karyawan, tren absensi sakit, dan utilisasi benefit kesehatan tanpa melanggar privasi personal.",
+        "Multi-User Access & Role: Portal akses terpisah untuk Karyawan (mobile app), HR Admin, Manajemen Eksekutif, Provider Kesehatan, dan Keluarga Karyawan.",
+        "Integrasi Device & Wearables: Koneksi ke smartwatch dan wearable fitness tracker untuk memantau target langkah, aktivitas fisik, dan tantangan wellbeing bersama.",
+        "Program Reward & Engagement: Gamifikasi aktivitas sehat dengan poin reward yang dapat ditukarkan dengan voucer kesehatan dan merchandise."
+      ],
+      "deployment": "Cloud SaaS, Private Cloud, atau On-Premise",
+      "summary": "Platform manajemen kesehatan dan kesejahteraan karyawan terpadu dengan integrasi resmi SatuSehat Kemenkes dan BPJS Kesehatan."
     }
   ],
   "capabilities": [
-    "Pengalaman rekayasa perangkat lunak sejak 1999 (PT Ciptadra Softindo)",
-    "Penyedia resmi platform Onebox Omnichannel CRM & Sistem Antrian",
-    "Unit spesialis Orbeets untuk industri asuransi Indonesia",
-    "Integrasi resmi WhatsApp Business API",
-    "Kepatuhan regulasi Indonesia (OJK, Bank Indonesia, UU PDP)",
-    "Pilihan deployment fleksibel: Cloud SaaS, Private Cloud, atau On-Premise",
-    "Kantor pusat di Ciptadra Innovation Tower, Margonda, Depok"
-  ],
-  "faq": [
-    {
-      "question": "Apa itu CiptadraSoft (PT Ciptadra Softindo)?",
-      "answer": "PT Ciptadra Softindo (CiptadraSoft) adalah perusahaan software engineering dan teknologi asal Indonesia yang berdiri sejak tahun 1999 dengan kantor pusat di Ciptadra Innovation Tower, Jl. Margonda Raya, Depok. Kami terkenal dengan produk unggulan seperti Onebox (Omnichannel CRM & Sistem Antrian), Orbeets (solusi asuransi), serta custom software dan IoT development."
-    },
-    {
-      "question": "Apa itu Onebox dan apa saja fiturnya?",
-      "answer": "Onebox (onebox.co.id) adalah produk unggulan PT Ciptadra Softindo berupa platform Omnichannel CRM terpadu. Fitur utamanya mencakup: (1) Omnichannel Contact Center yang menyatukan WhatsApp, Instagram, Facebook, X, Email, Webchat, dan Telepon dalam satu layar; (2) Sistem Antrian cerdas berbasis cloud; (3) Ticketing Management dengan SLA tracking; (4) Chatbot cerdas dan broadcast messaging; (5) Manajemen kontak pelanggan 360; (6) Dashboard monitoring agen dan CSAT real-time."
-    },
-    {
-      "question": "Apa itu Onebox Sistem Antrian?",
-      "answer": "Onebox Sistem Antrian adalah solusi manajemen antrean digital yang mengintegrasikan kiosk tiket, display monitor loket, pemanggilan nomor berbasis suara, dan notifikasi nomor antrean langsung ke WhatsApp nasabah/pasien. Sangat populer digunakan di rumah sakit, puskesmas, perbankan, dan loket pelayanan publik."
-    },
-    {
-      "question": "Apa itu Orbeets?",
-      "answer": "Orbeets (orbeets.co.id) adalah unit spesialis dari PT Ciptadra Softindo yang berfokus pada solusi teknologi inti untuk industri asuransi (asuransi umum, asuransi jiwa, dan asuransi kesehatan), mencakup pengelolaan polis, portal klaim digital, underwriting, dan kepatuhan OJK."
-    },
-    {
-      "question": "Di mana kantor CiptadraSoft dan bagaimana cara menghubunginya?",
-      "answer": "Kantor pusat kami berada di Ciptadra Innovation Tower, Jl. STM Mandiri No. 1, Jl. Margonda Raya, Kota Depok, Jawa Barat 16423. Anda dapat menghubungi tim sales/marketing kami via telepon di +62 21 7271051, WhatsApp di 081383249247, atau email di marketing@ciptadrasoft.com."
-    },
-    {
-      "question": "Bisakah Onebox dihubungkan dengan WhatsApp Business API resmi?",
-      "answer": "Ya! Onebox mendukung integrasi langsung dengan WhatsApp Business API resmi (termasuk verifikasi green tick / centang hijau), memungkinkan multi-agen membalas dari satu nomor WhatsApp yang sama dengan fitur broadcast dan chatbot."
-    }
+    "Pengalaman rekayasa perangkat lunak lebih dari 25 tahun sejak 1999 (PT Ciptadra Softindo)",
+    "Penyedia resmi 7 platform unggulan: Onebox CRM, Onebox Smartcity, Onebox Insurance, Onebox Data Warehouse, Onebox Digital, Onebox PR, dan Ciptalife",
+    "Integrasi resmi SatuSehat Kementerian Kesehatan RI dan BPJS Kesehatan melalui Ciptalife",
+    "Penyedia resmi integrasi WhatsApp Business API (Centang Hijau)",
+    "Kepatuhan ketat regulasi Indonesia: OJK, Bank Indonesia, kerangka kerja SPBE nasional, dan UU PDP",
+    "Pilihan deployment fleksibel: Cloud SaaS, Private Cloud, atau On-Premise Datacenter",
+    "Didukung 80+ software engineers di Ciptadra Innovation Tower, Margonda Raya, Depok",
+    "Berhasil mengekspor solusi perangkat lunak ke Hong Kong, Thailand, Cina, dan Spanyol",
+    "Dipercaya oleh lebih dari 200 klien aktif di berbagai sektor strategis Indonesia"
   ]
 }

@@ -12,7 +12,10 @@ import {
   Check, 
   X,
   Bot,
-  Users
+  Users,
+  ShieldCheck,
+  Radio,
+  HeartPulse
 } from 'lucide-react';
 import { getAllSolutions } from '@/lib/retrieval';
 import { SolutionItem } from '@/types/chatbot';
@@ -23,20 +26,20 @@ interface SolutionsProps {
 
 const iconMap: Record<string, React.ReactNode> = {
   'omnichannel-customer-experience': <Headphones className="w-6 h-6 text-blue-600" />,
-  'queue-management-system': <Users className="w-6 h-6 text-emerald-600" />,
-  'orbeets-insurance-core': <Building2 className="w-6 h-6 text-indigo-600" />,
-  'business-process-automation': <Cpu className="w-6 h-6 text-amber-600" />,
-  'enterprise-software-development': <RefreshCw className="w-6 h-6 text-teal-600" />,
-  'ai-solutions': <Sparkles className="w-6 h-6 text-purple-600" />,
+  'smartcity-egovernment': <Building2 className="w-6 h-6 text-emerald-600" />,
+  'insurance-fintech': <ShieldCheck className="w-6 h-6 text-indigo-600" />,
+  'datawarehouse-bi': <BarChart3 className="w-6 h-6 text-amber-600" />,
+  'pr-media-intelligence': <Radio className="w-6 h-6 text-purple-600" />,
+  'digital-wellbeing': <HeartPulse className="w-6 h-6 text-rose-600" />,
 };
 
 const colorMap: Record<string, { bg: string; border: string; badge: string }> = {
   'omnichannel-customer-experience': { bg: 'bg-blue-50/70', border: 'border-blue-100', badge: 'text-blue-700 bg-blue-100/70' },
-  'queue-management-system': { bg: 'bg-emerald-50/70', border: 'border-emerald-100', badge: 'text-emerald-700 bg-emerald-100/70' },
-  'orbeets-insurance-core': { bg: 'bg-indigo-50/70', border: 'border-indigo-100', badge: 'text-indigo-700 bg-indigo-100/70' },
-  'business-process-automation': { bg: 'bg-amber-50/70', border: 'border-amber-100', badge: 'text-amber-700 bg-amber-100/70' },
-  'enterprise-software-development': { bg: 'bg-teal-50/70', border: 'border-teal-100', badge: 'text-teal-700 bg-teal-100/70' },
-  'ai-solutions': { bg: 'bg-purple-50/70', border: 'border-purple-100', badge: 'text-purple-700 bg-purple-100/70' },
+  'smartcity-egovernment': { bg: 'bg-emerald-50/70', border: 'border-emerald-100', badge: 'text-emerald-700 bg-emerald-100/70' },
+  'insurance-fintech': { bg: 'bg-indigo-50/70', border: 'border-indigo-100', badge: 'text-indigo-700 bg-indigo-100/70' },
+  'datawarehouse-bi': { bg: 'bg-amber-50/70', border: 'border-amber-100', badge: 'text-amber-700 bg-amber-100/70' },
+  'pr-media-intelligence': { bg: 'bg-purple-50/70', border: 'border-purple-100', badge: 'text-purple-700 bg-purple-100/70' },
+  'digital-wellbeing': { bg: 'bg-rose-50/70', border: 'border-rose-100', badge: 'text-rose-700 bg-rose-100/70' },
 };
 
 export const Solutions: React.FC<SolutionsProps> = ({ onAskAIAbout }) => {

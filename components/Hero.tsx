@@ -64,18 +64,22 @@ export const Hero: React.FC<HeroProps> = ({ onOpenChat }) => {
             </div>
 
             {/* Trust Badges */}
-            <div className="grid grid-cols-3 gap-6 pt-6 border-t border-slate-200/80 w-full max-w-lg">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-slate-200/80 w-full max-w-xl">
               <div>
-                <div className="text-2xl font-bold text-slate-900">99.9%</div>
-                <div className="text-xs font-medium text-slate-500 mt-0.5">System Availability</div>
+                <div className="text-2xl font-black text-slate-900">25+ Thn</div>
+                <div className="text-xs font-medium text-slate-500 mt-0.5">Pengalaman (Est. 1999)</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-slate-900">&lt; 70%</div>
-                <div className="text-xs font-medium text-slate-500 mt-0.5">Workflow Cycle Time</div>
+                <div className="text-2xl font-black text-slate-900">200+</div>
+                <div className="text-xs font-medium text-slate-500 mt-0.5">Klien Enterprise &amp; BUMN</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-slate-900">100%</div>
-                <div className="text-xs font-medium text-slate-500 mt-0.5">On-Premise Ready</div>
+                <div className="text-2xl font-black text-slate-900">94%</div>
+                <div className="text-xs font-medium text-slate-500 mt-0.5">Skor CSAT Pelanggan</div>
+              </div>
+              <div>
+                <div className="text-2xl font-black text-slate-900">18K+</div>
+                <div className="text-xs font-medium text-slate-500 mt-0.5">Interaksi Setiap Hari</div>
               </div>
             </div>
           </div>
@@ -203,6 +207,36 @@ export const Hero: React.FC<HeroProps> = ({ onOpenChat }) => {
             </div>
           </div>
 
+        </div>
+
+        {/* Trusted By Client Bar */}
+        <div className="mt-16 pt-8 border-t border-slate-200/80">
+          <p className="text-center text-xs font-bold uppercase tracking-widest text-slate-400 mb-6">
+            Dipercaya 200+ Klien Terkemuka &amp; Diekspor ke Hong Kong, Thailand, Cina, Spanyol
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-xs sm:text-sm font-semibold text-slate-600">
+            <span className="hover:text-blue-600 transition-colors">Bank Indonesia</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">OJK</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">Telkom Indonesia</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">Telkomsel</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">XL Axiata</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">Gojek</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">AXA Mandiri</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">Ciputra Life</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">Allobank</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">LRT Jakarta</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
+            <span className="hover:text-blue-600 transition-colors">Kemenkeu RI</span>
+          </div>
         </div>
       </div>
     </section>

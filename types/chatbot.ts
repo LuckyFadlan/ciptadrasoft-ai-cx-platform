@@ -61,6 +61,7 @@ export interface IndustryItem {
 }
 
 export interface ServiceItem {
+  id?: string;
   name: string;
   description: string;
 }
@@ -70,14 +71,27 @@ export interface FAQItem {
   answer: string;
 }
 
+export interface ClientCategory {
+  category: string;
+  list: string[];
+}
+
+export interface ClientData {
+  total: string;
+  exportMarkets: string[];
+  categories: ClientCategory[];
+}
+
 export interface KnowledgeBase {
   company: CompanyInfo;
   solutions: SolutionItem[];
   products: ProductItem[];
+  platforms?: any[];
   industries: IndustryItem[];
   services: ServiceItem[];
   capabilities: string[];
   faq: FAQItem[];
+  clients?: ClientData;
 }
 
 export interface LeadFormData {

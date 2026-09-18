@@ -4,7 +4,7 @@ import { KnowledgeBase, SolutionItem, ProductItem, IndustryItem, FAQItem } from 
 const knowledge: KnowledgeBase = knowledgeData as KnowledgeBase;
 
 export interface RetrievedSnippet {
-  type: 'company' | 'solution' | 'product' | 'industry' | 'service' | 'capability' | 'faq';
+  type: 'company' | 'solution' | 'product' | 'industry' | 'service' | 'capability' | 'faq' | 'client';
   title: string;
   content: string;
   score: number;
@@ -22,7 +22,7 @@ const STOPWORDS = new Set([
   'did', 'can', 'could', 'should', 'would', 'will', 'of', 'how', 'what', 'which', 'who',
   'where', 'why', 'when', 'does', 'please', 'tell', 'me', 'our', 'we', 'us', 'you', 'your',
   'ini', 'itu', 'dan', 'di', 'ke', 'dari', 'yang', 'untuk', 'dengan', 'adalah', 'apakah',
-  'bagaimana', 'bisa', 'tolong', 'kami', 'kita', 'saya'
+  'bagaimana', 'bisa', 'tolong', 'kami', 'kita', 'saya', 'ada', 'apa'
 ]);
 
 function tokenize(text: string): string[] {
@@ -48,14 +48,22 @@ function tokenize(text: string): string[] {
       expanded.add('solution');
       expanded.add('solutions');
     }
-    if (t === 'product' || t === 'products') {
+    if (t === 'product' || t === 'products' || t === 'produk') {
       expanded.add('product');
       expanded.add('products');
+      expanded.add('produk');
+      expanded.add('platform');
     }
-    if (t === 'service' || t === 'services' || t === 'serve' || t === 'serving') {
+    if (t === 'klien' || t === 'client' || t === 'clients' || t === 'pelanggan' || t === 'customer') {
+      expanded.add('client');
+      expanded.add('clients');
+      expanded.add('klien');
+      expanded.add('customer');
+    }
+    if (t === 'service' || t === 'services' || t === 'serve' || t === 'serving' || t === 'layanan') {
       expanded.add('service');
       expanded.add('services');
-      expanded.add('serve');
+      expanded.add('layanan');
     }
   }
 
@@ -119,7 +127,7 @@ export function retrieveKnowledge(query: string, maxItems = 5): RetrievalResult 
     candidates.push({
       type: 'product',
       title: 'CiptadraSoft Product Portfolio Overview',
-      content: `CiptadraSoft offers 6 modular enterprise platforms:\n` +
+      content: `CiptadraSoft offers 7 flagship enterprise platforms:\n` +
         knowledge.products.map(prod => `- **${prod.name}** (${prod.category}): ${prod.summary}`).join('\n'),
       score: 10
     });
@@ -185,7 +193,25 @@ export function retrieveKnowledge(query: string, maxItems = 5): RetrievalResult 
     });
   }
 
-  // 9. Check FAQs
+  // 9. Check Clients
+  const isClientQuery = queryTokens.some(t => ['client', 'clients', 'klien', 'customer', 'pelanggan', 'portfolio'].includes(t)) ||
+    ['telkom', 'telkomsel', 'gojek', 'bi', 'ojk', 'axa', 'allobank', 'ciputra', 'sompo', 'kemenkeu', 'kominfo', 'kemhan', 'esdm', 'bandung', 'bogor', 'sumut', 'hongkong', 'thailand', 'spanyol', 'china', 'cina'].some(k => lowerQuery.includes(k));
+
+  if (knowledge.clients) {
+    const clientsStr = knowledge.clients.categories.map(c => `${c.category}: ${c.list.join(', ')}`).join(' | ');
+    const clientScore = calculateScore(queryTokens, clientsStr, 1.8) + (isClientQuery ? 8 : 0);
+    if (clientScore > 0 || isClientQuery) {
+      candidates.push({
+        type: 'client',
+        title: 'CiptadraSoft Client Portfolio & Track Record',
+        content: `CiptadraSoft dipercaya lebih dari 200 klien aktif di Indonesia dan pasar internasional (ekspor: ${knowledge.clients.exportMarkets.join(', ')}):\n` +
+          knowledge.clients.categories.map(c => `- **${c.category}**: ${c.list.join(', ')}`).join('\n'),
+        score: clientScore || 6
+      });
+    }
+  }
+
+  // 10. Check FAQs
   for (const faq of knowledge.faq) {
     const text = `${faq.question} ${faq.answer}`;
     const score = calculateScore(queryTokens, text, 1.5);
@@ -246,6 +272,10 @@ export function getAllSolutions(): SolutionItem[] {
 
 export function getAllProducts(): ProductItem[] {
   return knowledge.products;
+}
+
+export function getAllClients() {
+  return knowledge.clients;
 }
 
 export function getAllIndustries(): IndustryItem[] {

@@ -24,8 +24,8 @@ const pillars = [
   },
   {
     icon: <Award className="w-6 h-6 text-indigo-600" />,
-    title: 'Industry Expertise',
-    description: 'Over a decade of hands-on delivery in Indonesian banking, telecom, manufacturing, retail, and public sector domains.'
+    title: '25+ Years Proven Track Record',
+    description: 'Berdiri sejak 1999 dengan 80+ software engineers, melayani 200+ klien korporat dan berhasil mengekspor solusi ke Hong Kong, Thailand, Cina, dan Spanyol.'
   },
   {
     icon: <HeartHandshake className="w-6 h-6 text-amber-600" />,

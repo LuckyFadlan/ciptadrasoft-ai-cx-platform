@@ -5,9 +5,13 @@ import {
   Users, 
   MessageSquareCode, 
   Workflow, 
-  TrendingUp, 
+  ShieldCheck, 
   Bot, 
-  Network, 
+  Globe, 
+  Database,
+  Radio,
+  HeartPulse,
+  Building2,
   CheckCircle2, 
   Server, 
   ArrowRight 
@@ -20,11 +24,12 @@ interface ProductsProps {
 
 const productIcons: Record<string, React.ReactNode> = {
   'onebox-crm': <MessageSquareCode className="w-5 h-5 text-blue-600" />,
-  'onebox-antrian': <Users className="w-5 h-5 text-emerald-600" />,
-  'orbeets-platform': <TrendingUp className="w-5 h-5 text-indigo-600" />,
-  'ciptadra-bpm': <Workflow className="w-5 h-5 text-amber-600" />,
-  'ciptadra-ai-agent': <Bot className="w-5 h-5 text-purple-600" />,
-  'ciptadra-iot-custom': <Network className="w-5 h-5 text-teal-600" />,
+  'onebox-smartcity': <Building2 className="w-5 h-5 text-emerald-600" />,
+  'onebox-insurance': <ShieldCheck className="w-5 h-5 text-indigo-600" />,
+  'onebox-datawarehouse': <Database className="w-5 h-5 text-amber-600" />,
+  'onebox-digital': <Globe className="w-5 h-5 text-cyan-600" />,
+  'onebox-pr': <Radio className="w-5 h-5 text-purple-600" />,
+  'ciptalife': <HeartPulse className="w-5 h-5 text-rose-600" />,
 };
 
 export const Products: React.FC<ProductsProps> = ({ onAskAIAbout }) => {
