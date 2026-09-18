@@ -17,14 +17,18 @@ export interface CompanyInfo {
   description: string;
   founded: string;
   headquarters: string;
+  address?: string;
   presence: string[];
   mission: string;
   values: string[];
   contact: {
     email: string;
-    salesEmail: string;
+    salesEmail?: string;
+    supportEmail?: string;
     phone: string;
+    whatsapp?: string;
     address: string;
+    websites?: string[];
     businessHours: string;
   };
 }

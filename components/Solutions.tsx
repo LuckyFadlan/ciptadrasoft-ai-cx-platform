@@ -11,7 +11,8 @@ import {
   ArrowRight, 
   Check, 
   X,
-  Bot
+  Bot,
+  Users
 } from 'lucide-react';
 import { getAllSolutions } from '@/lib/retrieval';
 import { SolutionItem } from '@/types/chatbot';
@@ -21,20 +22,20 @@ interface SolutionsProps {
 }
 
 const iconMap: Record<string, React.ReactNode> = {
-  'enterprise-solutions': <Building2 className="w-6 h-6 text-blue-600" />,
-  'customer-service-solutions': <Headphones className="w-6 h-6 text-emerald-600" />,
-  'digital-transformation': <RefreshCw className="w-6 h-6 text-indigo-600" />,
+  'omnichannel-customer-experience': <Headphones className="w-6 h-6 text-blue-600" />,
+  'queue-management-system': <Users className="w-6 h-6 text-emerald-600" />,
+  'orbeets-insurance-core': <Building2 className="w-6 h-6 text-indigo-600" />,
   'business-process-automation': <Cpu className="w-6 h-6 text-amber-600" />,
-  'data-analytics': <BarChart3 className="w-6 h-6 text-teal-600" />,
+  'enterprise-software-development': <RefreshCw className="w-6 h-6 text-teal-600" />,
   'ai-solutions': <Sparkles className="w-6 h-6 text-purple-600" />,
 };
 
 const colorMap: Record<string, { bg: string; border: string; badge: string }> = {
-  'enterprise-solutions': { bg: 'bg-blue-50/70', border: 'border-blue-100', badge: 'text-blue-700 bg-blue-100/70' },
-  'customer-service-solutions': { bg: 'bg-emerald-50/70', border: 'border-emerald-100', badge: 'text-emerald-700 bg-emerald-100/70' },
-  'digital-transformation': { bg: 'bg-indigo-50/70', border: 'border-indigo-100', badge: 'text-indigo-700 bg-indigo-100/70' },
+  'omnichannel-customer-experience': { bg: 'bg-blue-50/70', border: 'border-blue-100', badge: 'text-blue-700 bg-blue-100/70' },
+  'queue-management-system': { bg: 'bg-emerald-50/70', border: 'border-emerald-100', badge: 'text-emerald-700 bg-emerald-100/70' },
+  'orbeets-insurance-core': { bg: 'bg-indigo-50/70', border: 'border-indigo-100', badge: 'text-indigo-700 bg-indigo-100/70' },
   'business-process-automation': { bg: 'bg-amber-50/70', border: 'border-amber-100', badge: 'text-amber-700 bg-amber-100/70' },
-  'data-analytics': { bg: 'bg-teal-50/70', border: 'border-teal-100', badge: 'text-teal-700 bg-teal-100/70' },
+  'enterprise-software-development': { bg: 'bg-teal-50/70', border: 'border-teal-100', badge: 'text-teal-700 bg-teal-100/70' },
   'ai-solutions': { bg: 'bg-purple-50/70', border: 'border-purple-100', badge: 'text-purple-700 bg-purple-100/70' },
 };
 

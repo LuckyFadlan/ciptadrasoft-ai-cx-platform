@@ -19,12 +19,12 @@ interface ProductsProps {
 }
 
 const productIcons: Record<string, React.ReactNode> = {
-  'ciptadra-crm': <Users className="w-5 h-5 text-blue-600" />,
-  'ciptadra-service-desk': <MessageSquareCode className="w-5 h-5 text-emerald-600" />,
+  'onebox-crm': <MessageSquareCode className="w-5 h-5 text-blue-600" />,
+  'onebox-antrian': <Users className="w-5 h-5 text-emerald-600" />,
+  'orbeets-platform': <TrendingUp className="w-5 h-5 text-indigo-600" />,
   'ciptadra-bpm': <Workflow className="w-5 h-5 text-amber-600" />,
-  'ciptadra-analytics': <TrendingUp className="w-5 h-5 text-teal-600" />,
   'ciptadra-ai-agent': <Bot className="w-5 h-5 text-purple-600" />,
-  'ciptadra-integration-bus': <Network className="w-5 h-5 text-indigo-600" />,
+  'ciptadra-iot-custom': <Network className="w-5 h-5 text-teal-600" />,
 };
 
 export const Products: React.FC<ProductsProps> = ({ onAskAIAbout }) => {

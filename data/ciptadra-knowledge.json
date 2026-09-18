@@ -1,306 +1,310 @@
 {
   "company": {
     "name": "CiptadraSoft",
-    "legalName": "PT Ciptadra Softindo Technology (Prototype Demo)",
-    "tagline": "Transform Your Business with Smarter Digital Solutions",
-    "description": "CiptadraSoft is an enterprise technology and software solution provider based in Indonesia, delivering digital transformation, integrated business systems, omnichannel customer service, process automation, and enterprise AI capabilities.",
-    "founded": "2012 (Demo Profile)",
-    "headquarters": "Jakarta, Indonesia",
-    "presence": ["Jakarta", "Surabaya", "Bandung", "Regional Southeast Asia"],
-    "mission": "Empowering enterprise organizations across Indonesia and Southeast Asia through scalable, secure, and modern digital ecosystems.",
+    "legalName": "PT Ciptadra Softindo",
+    "tagline": "Creative Engineering & Technology Innovation",
+    "description": "PT Ciptadra Softindo (CiptadraSoft) adalah perusahaan creative engineering dan inovasi teknologi yang berdiri sejak tahun 1999, berfokus pada solusi omnichannel contact center, CRM, sistem antrian cerdas, digitalisasi asuransi (Orbeets), custom software, dan IoT development.",
+    "founded": "1999",
+    "headquarters": "Depok, Jawa Barat, Indonesia",
+    "address": "Ciptadra Innovation Tower, Jl. STM Mandiri No. 1, Jl. Margonda Raya, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423",
+    "presence": ["Jakarta", "Depok", "Surabaya", "Bandung", "Regional Indonesia"],
+    "mission": "Memberdayakan organisasi bisnis dan pemerintahan melalui solusi perangkat lunak yang scalable, terintegrasi, dan berorientasi pada peningkatan customer experience.",
     "values": [
-      "Enterprise Grade Scalability",
+      "Creative Engineering",
       "Customer-Centric Innovation",
       "Robust Data Security & Compliance",
-      "Seamless Legacy Integration",
-      "Pragmatic AI Transformation"
+      "Scalable Omnichannel Architecture",
+      "Pragmatic Enterprise Modernization"
     ],
     "contact": {
-      "email": "info@ciptadrasoft.com",
-      "salesEmail": "sales@ciptadrasoft.com",
-      "phone": "+62 21 555 0192",
-      "address": "Cyber 2 Tower, 18th Floor, Jl. H.R. Rasuna Said, Kuningan, South Jakarta 12950, Indonesia",
-      "businessHours": "Monday - Friday, 08:30 - 17:30 WIB"
+      "email": "marketing@ciptadrasoft.com",
+      "supportEmail": "support@ciptadrasoft.com",
+      "phone": "+62 21 7271051",
+      "whatsapp": "081383249247",
+      "address": "Ciptadra Innovation Tower, Jl. Margonda Raya, Depok 16423",
+      "websites": ["https://ciptadrasoft.com", "https://onebox.co.id", "https://orbeets.co.id"],
+      "businessHours": "Senin - Jumat, 08:30 - 17:30 WIB"
     }
   },
   "solutions": [
     {
-      "id": "enterprise-solutions",
-      "name": "Enterprise Solutions",
-      "shortDescription": "Integrated core software architecture and digital foundations for high-scale enterprise operations.",
-      "description": "Comprehensive enterprise application ecosystems tailored for high-volume transactions, regulatory compliance, and multi-department interoperability. Enables seamless coordination between core operational units.",
+      "id": "omnichannel-customer-experience",
+      "name": "Onebox Omnichannel Customer Experience",
+      "shortDescription": "Solusi terintegrasi untuk contact center, customer service, sales, dan ticketing dari WhatsApp hingga medsos.",
+      "description": "Platform unified communications unggulan CiptadraSoft yang menyatukan seluruh saluran interaksi pelanggan (WhatsApp Business API, Webchat, Instagram DM, Facebook, X, Email, Voice/PBX, Play Store) ke dalam satu dashboard terpusat.",
       "keyBenefits": [
-        "Eliminates operational data silos",
-        "High-throughput transactional processing",
-        "Configurable role-based access control and audit logging",
-        "Full microservices or hybrid monolithic deployment readiness"
+        "Single dashboard untuk seluruh interaksi customer tanpa perlu gonta-ganti aplikasi",
+        "Sistem tiket dan eskalasi keluhan pelanggan berbasis SLA",
+        "Otomasi respon melalui Chatbot cerdas dan broadcast messaging",
+        "Distribusi pesan otomatis (Chat Assignment) ke agen yang relevan",
+        "Dashboard analitik performa agen dan CSAT real-time"
       ],
-      "capabilitiesIncluded": ["Enterprise Architecture", "Custom ERP Integration", "Multi-Tenant Architecture", "Security Framework"],
-      "targetAudience": "Large enterprises, financial conglomerates, multinational corporations"
+      "capabilitiesIncluded": ["Onebox Contact Center", "WhatsApp Business API", "Ticketing System", "Agent Analytics"],
+      "targetAudience": "Perusahaan ritel, perbankan, telekomunikasi, layanan publik, dan e-commerce"
     },
     {
-      "id": "customer-service-solutions",
-      "name": "Customer Service Solutions",
-      "shortDescription": "Omnichannel customer engagement platforms unifying WhatsApp, web chat, email, and call centers.",
-      "description": "Enterprise-grade omnichannel customer engagement and contact center software. Unifies customer communications into a single agent desktop, powered by intelligent routing, ticket lifecycle management, and SLA tracking.",
+      "id": "queue-management-system",
+      "name": "Onebox Sistem Antrian Cerdas (Queue Management)",
+      "shortDescription": "Sistem antrian digital berbasis cloud terintegrasi dengan contact center dan loket fisik.",
+      "description": "Sistem manajemen antrian cerdas yang mengintegrasikan pengambilan tiket antrian (kios, QR, online booking) dengan display monitor loket, notifikasi WhatsApp/SMS, serta pelaporan SLA waktu tunggu.",
       "keyBenefits": [
-        "Single pane of glass for all incoming channels (WhatsApp, Webchat, Email, Voice)",
-        "Automated tier-1 ticket deflection through conversational AI",
-        "Configurable SLA monitors with real-time escalation alerts",
-        "Deep integration with CRM and transaction databases"
+        "Mengurangi waktu tunggu fisik dan penumpukan antrean di lokasi",
+        "Terintegrasi langsung dengan Onebox Contact Center untuk follow-up pelanggan",
+        "Notifikasi nomor antrian langsung ke WhatsApp pengguna",
+        "Laporan detail waktu pelayanan per loket dan evaluasi produktivitas staf"
       ],
-      "capabilitiesIncluded": ["Omnichannel Inbox", "SLA Management", "Supervisor Real-time Analytics", "Customer Journey Tracking"],
-      "targetAudience": "Banks, retail chains, fintechs, telecom customer care divisions"
+      "capabilitiesIncluded": ["Cloud Queue Engine", "Digital Signage Display", "WhatsApp Notification", "Loket Dashboard"],
+      "targetAudience": "Rumah Sakit, Puskesmas, Dinas Layanan Publik, Bank, dan Kantor Pelayanan Terpadu"
     },
     {
-      "id": "digital-transformation",
-      "name": "Digital Transformation",
-      "shortDescription": "Strategic modernization of legacy business platforms into scalable cloud-native architectures.",
-      "description": "End-to-end modernization pathways for enterprises bound to legacy monolithic backends. CiptadraSoft develops migration blueprints, API abstraction layers, and modern UI/UX portals.",
+      "id": "orbeets-insurance-core",
+      "name": "Orbeets - Insurance Core Digitalization",
+      "shortDescription": "Core business enterprise technology solution khusus untuk industri asuransi jiwa, umum, dan kesehatan.",
+      "description": "Unit spesialis dari Ciptadra Softindo yang menghadirkan platform digitalisasi komprehensif bagi perusahaan asuransi, mulai dari polis, klaim digital, underwriting, hingga integrasi reasuransi.",
       "keyBenefits": [
-        "Zero-downtime phased migration methodologies",
-        "API-led connectivity connecting mainframe/legacy DBs with modern apps",
-        "Cloud-ready and containerized microservices deployment (Docker/K8s)",
-        "Faster time-to-market for digital customer touchpoints"
+        "Digitalisasi siklus penerbitan polis dan pengajuan klaim instan",
+        "Kepatuhan regulasi Otoritas Jasa Keuangan (OJK)",
+        "Integrasi mulus dengan rumah sakit rekanan dan penyedia pembayaran",
+        "Arsitektur modular cloud-ready untuk asuransi umum, jiwa, dan kesehatan"
       ],
-      "capabilitiesIncluded": ["Legacy Decoupling", "API Gateway Architecture", "DevOps & CI/CD Pipelines", "UX Modernization"],
-      "targetAudience": "Enterprises modernizing decades-old infrastructure, government institutions, insurance firms"
+      "capabilitiesIncluded": ["Policy Lifecycle", "Digital Claims Portal", "OJK Regulatory Compliance", "Broker & Agent Portal"],
+      "targetAudience": "Perusahaan Asuransi Umum, Asuransi Jiwa, TPA (Third Party Administrator), dan Insurtech"
     },
     {
       "id": "business-process-automation",
-      "name": "Business Process Automation (BPA)",
-      "shortDescription": "Workflow engine and robotic automation eliminating repetitive manual tasks and approval bottlenecks.",
-      "description": "Dynamic workflow orchestration and robotic process automation (RPA) enabling enterprises to automate complex multi-stage approvals, document verifications, financial reconciliations, and employee onboarding.",
+      "name": "Business Process Automation & BPM",
+      "shortDescription": "Otomasi alur kerja approval, administrasi formulir digital, dan integrasi antar divisi.",
+      "description": "Digitalisasi alur kerja persetujuan multi-tingkat, integrasi formulir online, rekonsiliasi data keuangan, dan otomasi tugas rutin untuk memangkas birokrasi internal perusahaan.",
       "keyBenefits": [
-        "Reduces process cycle time by up to 70%",
-        "Auditable and compliant workflow governance",
-        "Visual low-code workflow designer for business analysts",
-        "Automated document processing and OCR extraction"
+        "Mempercepat siklus proses operasional hingga 70%",
+        "Tata kelola workflow transparan dan auditable",
+        "Pengurangan penggunaan kertas dan input manual yang rentan kesalahan",
+        "Konektor API ke sistem ERP (SAP, Oracle) dan database korporat"
       ],
-      "capabilitiesIncluded": ["BPMN 2.0 Compliant Engine", "Form Builder", "Automated Task Dispatch", "Approval Matrix Rules"],
-      "targetAudience": "Operations departments, finance & accounting, HR, compliance teams"
+      "capabilitiesIncluded": ["BPM Engine", "Approval Matrix", "Document Automation", "Audit Trail"],
+      "targetAudience": "Departemen operasional, finance & accounting, HR, dan legal"
     },
     {
-      "id": "data-analytics",
-      "name": "Data & Analytics",
-      "shortDescription": "Enterprise data warehousing, real-time business intelligence, and predictive reporting dashboards.",
-      "description": "Unified data engineering and visualization suite transforming raw operational telemetry into actionable strategic insights. Consolidates ERP, CRM, and transactional stores into high-performance analytical warehouses.",
+      "id": "enterprise-software-development",
+      "name": "Custom Enterprise Software & IoT",
+      "shortDescription": "Pengembangan perangkat lunak kustom, portal web, mobile apps, dan integrasi IoT skala besar.",
+      "description": "Layanan rekayasa perangkat lunak tailor-made oleh puluhan insinyur berpengalaman untuk membangun arsitektur digital mission-critical, enterprise web portal, mobile apps, dan solusi sensor/IoT.",
       "keyBenefits": [
-        "Executive dashboards with real-time KPI metrics",
-        "Predictive churn, demand forecasting, and risk modeling",
-        "Automated end-of-day data consolidation pipelines",
-        "Role-based data masking and governance complying with data privacy laws"
+        "Didesain khusus mengikuti workflow dan arsitektur unik klien",
+        "Didukung tim engineer berpengalaman sejak 1999",
+        "Pilihan arsitektur modern microservices atau hybrid",
+        "Dukungan SLA pemeliharaan teknis berkelanjutan"
       ],
-      "capabilitiesIncluded": ["ETL/ELT Data Pipelines", "Interactive Dashboards", "Data Warehouse Modeling", "Self-Service BI"],
-      "targetAudience": "C-level leadership, business intelligence analysts, risk management"
+      "capabilitiesIncluded": ["Custom Web Development", "Mobile App Development", "IoT System Engineering", "API Integration"],
+      "targetAudience": "Perusahaan multinasional, manufaktur, logistik, dan holding"
     },
     {
       "id": "ai-solutions",
-      "name": "AI Solutions & Automation",
-      "shortDescription": "Domain-grounded generative AI, intelligent chatbots, and predictive operational intelligence.",
-      "description": "Enterprise-ready AI capabilities including generative conversational assistants, automated document synthesis, intent categorization, and smart enterprise knowledge retrieval (RAG). Built with enterprise guardrails and private data isolation.",
+      "name": "AI Solutions & Conversational Intelligence",
+      "shortDescription": "Generative AI assistants, NLP chatbots, dan smart automation untuk layanan bisnis.",
+      "description": "Pemanfaatan kecerdasan buatan generatif (Generative AI) dan NLP untuk automasi layanan mandiri pelanggan, asisten virtual agen, ekstraksi dokumen cerdas, serta integrasi knowledge base enterprise.",
       "keyBenefits": [
-        "Domain-specific RAG grounded strictly on company manuals and policies",
-        "Multi-language support with native Indonesian (Bahasa) and English comprehension",
-        "Strict anti-hallucination guardrails and source attribution",
-        "Private deployment options (on-premise LLMs or sovereign cloud)"
+        "Respon otomatis 24/7 dengan bahasa alami (Bahasa Indonesia & English)",
+        "Reduksi beban agen untuk pertanyaan umum (tier-1 deflection)",
+        "Integrasi langsung dengan Onebox Omnichannel CRM",
+        "Keamanan data privat tanpa kebocoran data sensitif"
       ],
-      "capabilitiesIncluded": ["Conversational Generative AI", "Knowledge Base Retrieval (RAG)", "Document Intelligence", "Intent Routing"],
-      "targetAudience": "Customer support organizations, knowledge workers, legal/compliance teams, HR"
+      "capabilitiesIncluded": ["Conversational Generative AI", "Smart Knowledge Retrieval", "Lead Qualification", "Intent Routing"],
+      "targetAudience": "Customer care division, marketing, IT support, dan internal knowledge management"
     }
   ],
   "products": [
     {
-      "id": "ciptadra-crm",
-      "name": "Ciptadra CRM Suite",
-      "category": "Customer Relationship Management",
+      "id": "onebox-crm",
+      "name": "Onebox Omnichannel CRM",
+      "category": "Customer Relationship Management & Contact Center",
       "features": [
-        "360-degree customer profile aggregation",
-        "Sales pipeline tracking & deal velocity forecasting",
-        "Automated lead assignment and scoring",
-        "Activity logging and omnichannel history synchronization",
-        "Mobile companion app for field sales"
+        "Unified inbox: WhatsApp Business API, Instagram, Facebook, X, Email, Webchat, Voice",
+        "Shared Inbox & Ticketing management dengan penomoran keluhan unik",
+        "Chatbot cerdas & scheduled broadcast messaging",
+        "Automatic Chat Assignment & Routing ke agen berdasarkan keahlian atau round-robin",
+        "Customer 360 profile, riwayat percakapan, dan tag segmentasi pelanggan",
+        "Supervisor live monitoring dashboard dan CSAT/NPS survey otomatis"
       ],
-      "deployment": "Cloud SaaS or On-Premise Enterprise",
-      "summary": "Full-lifecycle enterprise customer relationship management system unifying lead acquisition, account management, and deal stages."
+      "deployment": "Cloud SaaS, Private Cloud, atau On-Premise",
+      "summary": "Platform unggulan PT Ciptadra Softindo yang menyatukan semua saluran komunikasi pelanggan ke dalam satu dasbor terpusat untuk efisiensi CS dan sales."
     },
     {
-      "id": "ciptadra-service-desk",
-      "name": "Ciptadra Omnichannel Service Desk",
-      "category": "Customer Service & Support",
+      "id": "onebox-antrian",
+      "name": "Onebox Sistem Antrian",
+      "category": "Queue Management System",
       "features": [
-        "Unified inbox for WhatsApp Business API, Webchat, Instagram DM, Email, and Voice",
-        "Configurable SLA policies with multi-level automated escalations",
-        "Integrated AI co-pilot for agent reply drafting and knowledge lookup",
-        "CSAT & NPS automated feedback surveying",
-        "Agent productivity dashboards and workload distribution"
+        "Mesin antrian berbasis cloud dengan integrasi tiket digital dan tiket cetak",
+        "Panggilan suara otomatis (Text-to-Speech) & display monitor loket",
+        "Notifikasi status nomor antrian langsung ke WhatsApp pengguna",
+        "Integrasi langsung ke Onebox Contact Center untuk follow-up layanan",
+        "Pelaporan real-time waktu tunggu dan produktivitas petugas loket"
       ],
-      "deployment": "Cloud, Private Cloud, or On-Premise",
-      "summary": "Complete contact center and service desk suite empowering support agents to handle high query volumes across multiple touchpoints."
+      "deployment": "Cloud Hybrid atau Local On-Premise Appliance",
+      "summary": "Solusi manajemen antrian modern untuk rumah sakit, puskesmas, perbankan, dan instansi layanan publik guna mengurai kepadatan ruang tunggu."
+    },
+    {
+      "id": "orbeets-platform",
+      "name": "Orbeets Enterprise Insurance Core",
+      "category": "Insurance Core System",
+      "features": [
+        "End-to-end policy lifecycle management (penerbitan, renewal, endorsement)",
+        "Modul digital klaim instan dan integrasi dokumen medis",
+        "Automasi proses underwriting dan kalkulasi premi",
+        "Portal khusus untuk agen, broker, dan nasabah asuransi",
+        "Sesuai regulasi Otoritas Jasa Keuangan (OJK)"
+      ],
+      "deployment": "Private Cloud atau Enterprise Datacenter",
+      "summary": "Core tech solution dari unit bisnis Ciptadra Softindo yang dirancang khusus untuk digitalisasi operasional industri asuransi umum, jiwa, dan kesehatan."
     },
     {
       "id": "ciptadra-bpm",
       "name": "Ciptadra Flow BPM",
       "category": "Business Process Management",
       "features": [
-        "Drag-and-drop workflow designer (BPMN 2.0)",
-        "Dynamic form generator with conditional validation",
-        "Multi-tier matrix approval chains (hierarchical, parallel, conditional)",
-        "Integration webhooks and REST connectors",
-        "Real-time bottleneck detection heatmaps"
+        "Visual workflow builder untuk alur persetujuan bertingkat",
+        "Formulir elektronik dengan validasi data otomatis",
+        "Pengingat SLA persetujuan via email dan WhatsApp",
+        "Integrasi ke sistem ERP (SAP, Microsoft Dynamics, Oracle)",
+        "Audit trail lengkap untuk transparansi operasional"
       ],
-      "deployment": "Enterprise On-Premise or Private Cloud",
-      "summary": "Enterprise workflow engine designed to orchestrate business procedures, reduce paperwork, and enforce regulatory compliance."
-    },
-    {
-      "id": "ciptadra-analytics",
-      "name": "Ciptadra Insight BI",
-      "category": "Data & Analytics",
-      "features": [
-        "Pre-built industry KPI visualization templates",
-        "In-memory analytical caching for instantaneous report rendering",
-        "Scheduled automated PDF/Excel report delivery to stakeholders",
-        "Row-level security and automated data anonymization",
-        "Direct connectors for Oracle, PostgreSQL, SQL Server, and BigQuery"
-      ],
-      "deployment": "Cloud or On-Premise",
-      "summary": "Modern business intelligence platform providing real-time operational transparency and strategic analytics."
+      "deployment": "On-Premise atau Cloud",
+      "summary": "Engine alur kerja korporat untuk mengotomatiskan proses approval, procurement, dan administrasi antar divisi."
     },
     {
       "id": "ciptadra-ai-agent",
       "name": "Ciptadra AI Virtual Assistant",
-      "category": "Artificial Intelligence",
+      "category": "Artificial Intelligence & Chatbot",
       "features": [
-        "Context-aware generative conversational engine",
-        "Internal enterprise document grounding (PDFs, DOCX, Notion, Wikis)",
-        "Automated tier-1 ticket resolution and escalation to human agents",
-        "Smart lead capture with direct CRM synchronization",
-        "Zero data-training clause ensuring enterprise data isolation"
+        "Generative conversational AI berbasis domain knowledge enterprise",
+        "Pencarian informasi kontekstual dari dokumen lokal dan data eksternal",
+        "Deteksi otomatis lead dan kebutuhan demo produk",
+        "Eskalasi mulus ke agen manusia di Onebox",
+        "Dukungan dwibahasa: Bahasa Indonesia & English"
       ],
-      "deployment": "Cloud API or Secure Private Subnet",
-      "summary": "Enterprise generative AI assistant designed to handle customer queries, internal staff guidance, and business diagnostic recommendations."
+      "deployment": "Cloud API atau Subnet Privat Perusahaan",
+      "summary": "Asisten virtual berbasis Generative AI untuk melayani tanya-jawab produk, pemecahan masalah bisnis, dan konsultasi kebutuhan digitalisasi."
     },
     {
-      "id": "ciptadra-integration-bus",
-      "name": "Ciptadra Enterprise Integration Gateway",
-      "category": "System Integration & Middleware",
+      "id": "ciptadra-iot-custom",
+      "name": "Ciptadra IoT & Custom Development",
+      "category": "Engineering Services",
       "features": [
-        "Enterprise Service Bus (ESB) and API management layer",
-        "Legacy protocol transformation (SOAP, ISO 8583, AS2 to REST/JSON)",
-        "High-throughput message queuing and retry policies",
-        "Centralized rate limiting, API token management, and threat protection",
-        "Comprehensive distributed audit trace logs"
+        "Pengembangan web dan aplikasi mobile kustom skala enterprise",
+        "Integrasi sensor perangkat IoT dan telemetri jarak jauh",
+        "Gateway integrasi API dan konversi protokol lama (SOAP, ISO 8583)",
+        "Dedicated engineering squad dengan arsitek senior Ciptadra"
       ],
-      "deployment": "On-Premise or Hybrid Cloud",
-      "summary": "Middleware infrastructure connecting disparate enterprise applications, legacy core systems, and modern SaaS endpoints."
+      "deployment": "Tailor-made / Multi-Cloud",
+      "summary": "Layanan rekayasa kustom dan IoT development oleh tim ahli PT Ciptadra Softindo sejak 1999."
     }
   ],
   "industries": [
     {
       "id": "banking-finance",
-      "name": "Banking & Finance",
-      "tagline": "Compliant, high-throughput digital banking and financial workflows.",
-      "challengesAddressed": "High transaction volumes, strict compliance (OJK / Bank Indonesia standards), legacy core-banking integration, security audits.",
-      "popularSolutions": ["Enterprise Integration Gateway", "Omnichannel Customer Support", "AI Document Verification", "Anti-Fraud Workflow Automation"]
+      "name": "Perbankan & Fintech",
+      "tagline": "Layanan nasabah berkecepatan tinggi dan kepatuhan OJK / Bank Indonesia.",
+      "challengesAddressed": "Tingginya volume pesan WhatsApp/chat nasabah, kebutuhan sistem antrian kantor cabang, integrasi core banking.",
+      "popularSolutions": ["Onebox Omnichannel CRM", "Onebox Sistem Antrian", "WhatsApp Business API", "Enterprise Integration"]
     },
     {
-      "id": "retail",
-      "name": "Retail & E-Commerce",
-      "tagline": "Omnichannel shopping experiences with unified inventory and customer care.",
-      "challengesAddressed": "Managing customer queries across WhatsApp and marketplaces, loyalty tracking, peak sale spikes, stock synchronization.",
-      "popularSolutions": ["Omnichannel Service Desk", "Ciptadra CRM Suite", "Real-Time Sales BI Dashboards"]
-    },
-    {
-      "id": "telecommunications",
-      "name": "Telecommunications",
-      "tagline": "Scalable customer care and provisioning automation for millions of subscribers.",
-      "challengesAddressed": "Extreme support query volume, complex billing system reconciliation, plan migration workflows.",
-      "popularSolutions": ["AI Virtual Assistant", "Automated Billing Workflow", "BPM Process Orchestration"]
-    },
-    {
-      "id": "manufacturing",
-      "name": "Manufacturing & Supply Chain",
-      "tagline": "End-to-end operational visibility from procurement to factory distribution.",
-      "challengesAddressed": "Disjointed vendor communications, supply delays, quality inspection logging, paper-heavy procurement approvals.",
-      "popularSolutions": ["Ciptadra Flow BPM", "Supply Chain Analytics BI", "Vendor Integration Portal"]
-    },
-    {
-      "id": "government",
-      "name": "Government & Public Sector",
-      "tagline": "Modern, citizen-centric public service portals and bureaucratic workflow digitization.",
-      "challengesAddressed": "Multi-tier administrative approvals, archiving regulations, citizen service SLAs, data residency mandates.",
-      "popularSolutions": ["Public Service Portal & Ticketing", "Document Workflow Engine", "Secure On-Premise Deployment"]
+      "id": "insurance",
+      "name": "Asuransi & Penjaminan",
+      "tagline": "Digitalisasi operasional polis dan klaim melalui platform Orbeets.",
+      "challengesAddressed": "Klaim manual yang lambat, koordinasi dengan rumah sakit rekanan, pembaruan polis, dan pelaporan audit.",
+      "popularSolutions": ["Orbeets Insurance Core", "Onebox Contact Center", "Portal Klaim Digital"]
     },
     {
       "id": "healthcare",
-      "name": "Healthcare & Pharmaceuticals",
-      "tagline": "Patient-first appointment scheduling, record integration, and clinical workflows.",
-      "challengesAddressed": "Fragmented patient communications, clinical document approvals, privacy regulations, hospital management system integration.",
-      "popularSolutions": ["Omnichannel Patient Helpdesk", "Clinical Workflow Automation", "Healthcare Analytics"]
+      "name": "Rumah Sakit & Layanan Kesehatan",
+      "tagline": "Sistem antrian pasien cerdas dan omnichannel customer care.",
+      "challengesAddressed": "Penumpukan antrean loket pendaftaran/farmasi, konfirmasi janji temu dokter, respon cepat darurat.",
+      "popularSolutions": ["Onebox Sistem Antrian Cerdas", "WhatsApp Notifikasi Antrean", "Onebox Helpdesk Pasien"]
     },
     {
-      "id": "other-enterprise",
-      "name": "Other Enterprises & Conglomerates",
-      "tagline": "Custom enterprise software architecture tailored to complex holding operations.",
-      "challengesAddressed": "Multi-subsidiary governance, inter-company billing, shared service centers.",
-      "popularSolutions": ["Shared Service CRM & Service Desk", "Enterprise Architecture Modernization", "Custom Cloud Solutions"]
+      "id": "retail",
+      "name": "Ritel & E-Commerce",
+      "tagline": "Customer care terpadu dari WhatsApp hingga marketplace dalam satu layar.",
+      "challengesAddressed": "Pesan pelanggan tercecer di banyak platform, keluhan lambat ditangani, koordinasi tim sales.",
+      "popularSolutions": ["Onebox Omnichannel Contact Center", "Ticketing System", "Broadcast Promo WhatsApp"]
+    },
+    {
+      "id": "government",
+      "name": "Pemerintahan & Layanan Publik",
+      "tagline": "Portal pengaduan warga terintegrasi dan sistem antrian pelayanan terpadu.",
+      "challengesAddressed": "Birokrasi manual, aduan warga lintas kanal media sosial, antrean loket dinas publik.",
+      "popularSolutions": ["Onebox Public Service Ticketing", "Onebox Sistem Antrian Loket", "Chatbot Informasi Publik"]
+    },
+    {
+      "id": "telecommunications",
+      "name": "Telekomunikasi",
+      "tagline": "Otomasi customer service berskala jutaan pelanggan.",
+      "challengesAddressed": "Lonjakan query pelanggan, otomatisasi penanganan tiket gangguan jaringan, omnichannel inbox.",
+      "popularSolutions": ["Onebox High-Throughput Contact Center", "AI Virtual Assistant", "Automated Ticketing"]
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufaktur & Rantai Pasok",
+      "tagline": "Digitalisasi alur persetujuan pengadaan dan integrasi IoT pabrik.",
+      "challengesAddressed": "Workflow approval manual yang lama, pencatatan data logistik, monitoring perangkat.",
+      "popularSolutions": ["Ciptadra Flow BPM", "IoT Engineering", "Custom Enterprise Software"]
     }
   ],
   "services": [
     {
-      "name": "Enterprise IT Consulting & Architecture Strategy",
-      "description": "Advising enterprise technology leaders on modern architecture, cloud adoption roadmap, microservices migration, and regulatory readiness."
+      "name": "Onebox Implementation & WhatsApp Official Setup",
+      "description": "Setup resmi WhatsApp Business API (Centang Hijau / BSP), konfigurasi omnichannel inbox, dan pelatihan agen contact center."
     },
     {
-      "name": "Custom Software Development",
-      "description": "Tailor-made mission-critical web applications, enterprise portals, and mobile systems engineered to specific operational workflows."
+      "name": "Custom Software Engineering & Web Development",
+      "description": "Pengembangan aplikasi web, mobile, dan sistem enterprise khusus dirancang oleh software engineers CiptadraSoft sejak 1999."
     },
     {
-      "name": "Systems Integration & API Engineering",
-      "description": "Unifying ERPs (SAP, Oracle, Microsoft Dynamics), core banking, custom databases, and modern SaaS via robust enterprise middleware."
+      "name": "Sistem Antrian Loket & Integrasi Hardware Kios",
+      "description": "Penyediaan software dan integrasi hardware mesin antrian, kiosk touch screen, display monitor, dan printer tiket."
     },
     {
-      "name": "Enterprise AI Implementation & Guardrailing",
-      "description": "Deploying generative AI assistants, enterprise RAG pipelines, fine-tuned models, and document processing systems with strict privacy compliance."
+      "name": "Digitalisasi Asuransi (Orbeets Implementation)",
+      "description": "Implementasi sistem inti asuransi, integrasi klaim digital, dan bridging ke sistem pihak ketiga."
     },
     {
-      "name": "Managed Services & 24/7 Enterprise SLA Support",
-      "description": "Dedicated engineering support, infrastructure monitoring, security updates, and performance tuning guaranteeing enterprise uptime."
+      "name": "Enterprise IT Consulting & Managed Support SLA",
+      "description": "Layanan pemeliharaan teknis berkelanjutan, monitoring server 24/7, dan konsultasi arsitektur perangkat lunak."
     }
   ],
   "capabilities": [
-    "Enterprise Security & ISO/IEC 27001 standard practices",
-    "Microservices and Cloud-Native (Kubernetes, Docker) deployments",
-    "On-Premise, Private Cloud, and Hybrid Deployment flexibility",
-    "Real-time High-Concurrency Message Processing",
-    "Role-Based Access Control (RBAC) & Single Sign-On (SSO / SAML / OAuth2)",
-    "Bilingual AI models: Bahasa Indonesia & English fluency",
-    "Zero-Data-Retention agreements for proprietary enterprise AI deployments"
+    "Pengalaman rekayasa perangkat lunak sejak 1999 (PT Ciptadra Softindo)",
+    "Penyedia resmi platform Onebox Omnichannel CRM & Sistem Antrian",
+    "Unit spesialis Orbeets untuk industri asuransi Indonesia",
+    "Integrasi resmi WhatsApp Business API",
+    "Kepatuhan regulasi Indonesia (OJK, Bank Indonesia, UU PDP)",
+    "Pilihan deployment fleksibel: Cloud SaaS, Private Cloud, atau On-Premise",
+    "Kantor pusat di Ciptadra Innovation Tower, Margonda, Depok"
   ],
   "faq": [
     {
-      "question": "What is CiptadraSoft?",
-      "answer": "CiptadraSoft is an enterprise technology and software solution provider based in Indonesia. We specialize in digital transformation, business process automation (BPA), omnichannel customer service platforms, CRM, enterprise data analytics, and domain-grounded Generative AI solutions for corporations."
+      "question": "Apa itu CiptadraSoft (PT Ciptadra Softindo)?",
+      "answer": "PT Ciptadra Softindo (CiptadraSoft) adalah perusahaan software engineering dan teknologi asal Indonesia yang berdiri sejak tahun 1999 dengan kantor pusat di Ciptadra Innovation Tower, Jl. Margonda Raya, Depok. Kami terkenal dengan produk unggulan seperti Onebox (Omnichannel CRM & Sistem Antrian), Orbeets (solusi asuransi), serta custom software dan IoT development."
     },
     {
-      "question": "What products does CiptadraSoft offer?",
-      "answer": "CiptadraSoft offers a modular product portfolio including: Ciptadra CRM Suite, Ciptadra Omnichannel Service Desk, Ciptadra Flow BPM, Ciptadra Insight BI, Ciptadra AI Virtual Assistant, and Ciptadra Enterprise Integration Gateway."
+      "question": "Apa itu Onebox dan apa saja fiturnya?",
+      "answer": "Onebox (onebox.co.id) adalah produk unggulan PT Ciptadra Softindo berupa platform Omnichannel CRM terpadu. Fitur utamanya mencakup: (1) Omnichannel Contact Center yang menyatukan WhatsApp, Instagram, Facebook, X, Email, Webchat, dan Telepon dalam satu layar; (2) Sistem Antrian cerdas berbasis cloud; (3) Ticketing Management dengan SLA tracking; (4) Chatbot cerdas dan broadcast messaging; (5) Manajemen kontak pelanggan 360; (6) Dashboard monitoring agen dan CSAT real-time."
     },
     {
-      "question": "Can CiptadraSoft solutions be deployed on-premise for strict compliance?",
-      "answer": "Yes. While our solutions are cloud-ready, all CiptadraSoft platforms can be deployed fully on-premise or within your private corporate virtual cloud (VPC) to meet strict data residency and regulatory mandates (e.g., OJK and Bank Indonesia regulations)."
+      "question": "Apa itu Onebox Sistem Antrian?",
+      "answer": "Onebox Sistem Antrian adalah solusi manajemen antrean digital yang mengintegrasikan kiosk tiket, display monitor loket, pemanggilan nomor berbasis suara, dan notifikasi nomor antrean langsung ke WhatsApp nasabah/pasien. Sangat populer digunakan di rumah sakit, puskesmas, perbankan, dan loket pelayanan publik."
     },
     {
-      "question": "How does CiptadraSoft help automate customer service?",
-      "answer": "Through the Ciptadra Omnichannel Service Desk and Ciptadra AI Virtual Assistant, we unify channels like WhatsApp, web chat, and email into one workspace. Routine inquiries (tier-1) are automatically handled by conversational AI, while complex tickets are routed with full context to human agents, reducing resolution time and agent workload."
+      "question": "Apa itu Orbeets?",
+      "answer": "Orbeets (orbeets.co.id) adalah unit spesialis dari PT Ciptadra Softindo yang berfokus pada solusi teknologi inti untuk industri asuransi (asuransi umum, asuransi jiwa, dan asuransi kesehatan), mencakup pengelolaan polis, portal klaim digital, underwriting, dan kepatuhan OJK."
     },
     {
-      "question": "Does CiptadraSoft support integration with legacy systems like SAP or Oracle?",
-      "answer": "Yes. Our Ciptadra Enterprise Integration Gateway is engineered specifically to bridge modern applications with legacy ERPs, AS/400 systems, core banking engines, and relational databases using standard REST APIs, SOAP, and message queues."
+      "question": "Di mana kantor CiptadraSoft dan bagaimana cara menghubunginya?",
+      "answer": "Kantor pusat kami berada di Ciptadra Innovation Tower, Jl. STM Mandiri No. 1, Jl. Margonda Raya, Kota Depok, Jawa Barat 16423. Anda dapat menghubungi tim sales/marketing kami via telepon di +62 21 7271051, WhatsApp di 081383249247, atau email di marketing@ciptadrasoft.com."
     },
     {
-      "question": "How can an enterprise get started with CiptadraSoft?",
-      "answer": "You can request a consultation or customized product demonstration by clicking 'Talk to Us' on our website, submitting the inquiry form in this chat, or emailing sales@ciptadrasoft.com. Our solution architects will conduct an initial discovery session to map your business requirements."
+      "question": "Bisakah Onebox dihubungkan dengan WhatsApp Business API resmi?",
+      "answer": "Ya! Onebox mendukung integrasi langsung dengan WhatsApp Business API resmi (termasuk verifikasi green tick / centang hijau), memungkinkan multi-agen membalas dari satu nomor WhatsApp yang sama dengan fitur broadcast dan chatbot."
     }
   ]
 }
