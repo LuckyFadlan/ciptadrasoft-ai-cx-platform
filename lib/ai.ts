@@ -290,15 +290,31 @@ class MockProvider implements AIProvider {
  */
 export function getAIProvider(): AIProvider {
   const providerType = (process.env.AI_PROVIDER || 'gemini').toLowerCase().trim();
-
-  if (providerType === 'openai') {
-    return new OpenAIProvider();
-  }
+  const hasGemini = Boolean(process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY.trim() !== '');
+  const hasOpenAI = Boolean(process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY.trim() !== '');
 
   if (providerType === 'mock' || providerType === 'demo') {
     return new MockProvider();
   }
 
-  return new GeminiProvider();
+  if (providerType === 'openai' && hasOpenAI) {
+    return new OpenAIProvider();
+  }
+
+  if (providerType === 'gemini' && hasGemini) {
+    return new GeminiProvider();
+  }
+
+  // Auto-detection if preferred provider key is missing
+  if (hasGemini) {
+    return new GeminiProvider();
+  }
+
+  if (hasOpenAI) {
+    return new OpenAIProvider();
+  }
+
+  // Graceful fallback to rich local MockProvider if no API keys are configured yet
+  return new MockProvider();
 }
 
