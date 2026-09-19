@@ -11,10 +11,10 @@ interface SuggestedPromptsProps {
 }
 
 const DEFAULT_PROMPTS = [
-  'Apa saja 7 produk unggulan CiptadraSoft?',
-  'Jelaskan fitur Onebox CRM & WhatsApp Business API',
-  'Bagaimana Onebox Smartcity mendukung SPBE daerah?',
-  'Apa itu Ciptalife dan integrasi SatuSehat Kemenkes?',
+  'Jelaskan Onebox CRM',
+  'Bagaimana ticketing bekerja?',
+  'Solusi untuk customer service volume tinggi',
+  'Produk Ciptadra untuk perusahaan saya',
 ];
 
 export const SuggestedPrompts: React.FC<SuggestedPromptsProps> = ({

@@ -5,9 +5,10 @@ import { ArrowRight, Bot, ShieldCheck, Zap, Activity, Cpu, Layers, CheckCircle2 
 
 interface HeroProps {
   onOpenChat: () => void;
+  onOpenCSDashboard?: () => void;
 }
 
-export const Hero: React.FC<HeroProps> = ({ onOpenChat }) => {
+export const Hero: React.FC<HeroProps> = ({ onOpenChat, onOpenCSDashboard }) => {
   return (
     <section className="relative overflow-hidden pt-12 pb-20 md:pt-20 md:pb-28 bg-gradient-to-b from-white via-slate-50/50 to-slate-100/70 border-b border-slate-200/60">
       {/* Background Decorative Gradients */}
@@ -43,18 +44,31 @@ export const Hero: React.FC<HeroProps> = ({ onOpenChat }) => {
             </p>
 
             {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto mb-10">
+            <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3.5 w-full sm:w-auto mb-10">
+              {onOpenCSDashboard && (
+                <button
+                  onClick={onOpenCSDashboard}
+                  className="inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl text-base font-bold text-white bg-gradient-to-r from-blue-600 via-indigo-600 to-emerald-600 hover:from-blue-700 hover:via-indigo-700 hover:to-emerald-700 shadow-xl shadow-blue-600/30 hover:shadow-indigo-600/40 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group"
+                >
+                  <span className="relative flex h-2.5 w-2.5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-300 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400"></span>
+                  </span>
+                  <span>ENTER AI CUSTOMER SERVICE</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </button>
+              )}
+
               <a
                 href="#solutions"
-                className="inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl text-base font-semibold text-white bg-blue-600 hover:bg-blue-700 shadow-lg shadow-blue-600/30 hover:shadow-blue-600/40 hover:-translate-y-0.5 transition-all duration-200"
+                className="inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl text-base font-semibold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 shadow-sm hover:border-slate-300 hover:-translate-y-0.5 transition-all duration-200"
               >
                 <span>Explore Solutions</span>
-                <ArrowRight className="w-4 h-4" />
               </a>
 
               <button
                 onClick={onOpenChat}
-                className="inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl text-base font-semibold text-slate-800 bg-white hover:bg-slate-50 border border-slate-200 shadow-sm hover:border-blue-300 hover:text-blue-600 hover:-translate-y-0.5 transition-all duration-200 group"
+                className="inline-flex items-center justify-center gap-2.5 px-5 py-4 rounded-xl text-base font-semibold text-blue-700 bg-blue-50/80 hover:bg-blue-100/80 border border-blue-200/70 shadow-2xs hover:-translate-y-0.5 transition-all duration-200 group cursor-pointer"
               >
                 <div className="w-6 h-6 rounded-lg bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors">
                   <Bot className="w-3.5 h-3.5 text-blue-600 group-hover:text-white" />

@@ -3,7 +3,7 @@ import { getAIProvider } from '@/lib/ai';
 import { retrieveKnowledge } from '@/lib/retrieval';
 import { searchWeb } from '@/lib/webSearch';
 import { detectLeadIntent, generateFollowUpSuggestions } from '@/lib/chatbotPrompt';
-import { ChatRequestPayload, ChatApiResponse } from '@/types/chatbot';
+import { ChatRequestPayload, ChatApiResponse, CitationSource } from '@/types/chatbot';
 
 export async function POST(req: NextRequest) {
   try {
@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { messages } = body;
+    const { messages, activeAttachments = [] } = body;
     const latestUserMessage = [...messages].reverse().find(m => m.role === 'user');
 
     if (!latestUserMessage || !latestUserMessage.content.trim()) {
@@ -25,6 +25,12 @@ export async function POST(req: NextRequest) {
         { status: 400 }
       );
     }
+
+    // Also collect attachments from latest user message if sent there
+    const allAttachments = [
+      ...activeAttachments,
+      ...(latestUserMessage.attachments || [])
+    ].filter((v, i, a) => a.findIndex(t => t.id === v.id) === i);
 
     // 1. Retrieve grounded knowledge from local knowledge base (CiptadraSoft & Onebox)
     const retrieval = retrieveKnowledge(latestUserMessage.content);
@@ -55,7 +61,7 @@ export async function POST(req: NextRequest) {
     // 3. Check for commercial / lead intent
     const hasLeadIntent = detectLeadIntent(latestUserMessage.content);
 
-    // 4. Call active AI provider (Gemini or OpenAI)
+    // 4. Call active AI provider (Gemini, OpenAI, or Mock) with attachments
     const provider = getAIProvider();
     
     let reply = '';
@@ -64,7 +70,8 @@ export async function POST(req: NextRequest) {
     try {
       const result = await provider.generateResponse({
         messages,
-        knowledgeContext: combinedContext
+        knowledgeContext: combinedContext,
+        attachments: allAttachments
       });
       reply = result.reply;
     } catch (apiError: unknown) {
@@ -79,14 +86,65 @@ export async function POST(req: NextRequest) {
     // 5. Generate dynamic follow-up chips
     const followUps = generateFollowUpSuggestions(latestUserMessage.content, reply);
 
-    // Combine grounded sources from local knowledge base and web search
-    const allSources = Array.from(new Set([...retrieval.sourceTitles, ...webSourceTitles]));
+    // Combine grounded sources and structured citations
+    const citations: CitationSource[] = [];
+
+    // Add uploaded files as primary citations if present
+    if (allAttachments.length > 0) {
+      for (const att of allAttachments) {
+        citations.push({
+          id: `cite-file-${att.id}`,
+          title: `📄 File: ${att.name}`,
+          sourceType: 'policy',
+          excerpt: `File yang diunggah (${(att.size / 1024).toFixed(1)} KB) untuk analisis dokumen kontekstual.`,
+          isVerified: true
+        });
+      }
+    }
+    
+    // Top local snippets
+    for (let i = 0; i < Math.min(retrieval.snippets.length, 2); i++) {
+      const snip = retrieval.snippets[i];
+      const isOnebox = snip.type === 'onebox' || snip.title.toLowerCase().includes('onebox');
+      citations.push({
+        id: `cite-local-${i}`,
+        title: isOnebox ? `Onebox — ${snip.title}` : `CiptadraSoft — ${snip.title}`,
+        url: isOnebox ? 'https://onebox.co.id/' : 'https://ciptadrasoft.com/',
+        sourceType: isOnebox ? 'onebox' : 'ciptadra',
+        excerpt: snip.content.slice(0, 160) + '...',
+        isVerified: true
+      });
+    }
+
+    // Top web results if any
+    for (let j = 0; j < Math.min(webSourceTitles.length, 1); j++) {
+      citations.push({
+        id: `cite-web-${j}`,
+        title: `Google / Web — ${webSourceTitles[j]}`,
+        url: 'https://google.com/search?q=' + encodeURIComponent(latestUserMessage.content),
+        sourceType: 'web',
+        excerpt: 'Verified search index reference for external domain information.',
+        isVerified: false
+      });
+    }
+
+    const citationLabels = citations.map(c => `• ${c.title}`);
+
+    // Source breakdown distinguishing file, official, web, inference
+    const sourceBreakdown = {
+      fromFile: allAttachments.map(a => a.name),
+      fromOfficial: retrieval.snippets.slice(0, 2).map(s => s.title),
+      fromWeb: webSourceTitles.slice(0, 1),
+      inferences: ['Analisis dan penalaran arsitektur sistem CiptadraSoft']
+    };
 
     const responsePayload: ChatApiResponse = {
       reply,
       suggestedFollowUps: followUps,
       showLeadForm: hasLeadIntent,
-      groundedSources: allSources,
+      groundedSources: citationLabels,
+      citations,
+      sourceBreakdown,
       error: isFallback ? 'API_UNAVAILABLE' : undefined
     };
 
